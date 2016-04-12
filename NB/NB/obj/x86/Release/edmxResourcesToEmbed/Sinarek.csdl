@@ -1,0 +1,1600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="sinarekModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="sinarekEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="absenalls" EntityType="sinarekModel.absenall" />
+    <EntitySet Name="accpayments" EntityType="sinarekModel.accpayment" />
+    <EntitySet Name="acctrans" EntityType="sinarekModel.acctran" />
+    <EntitySet Name="actionlogs" EntityType="sinarekModel.actionlog" />
+    <EntitySet Name="borongans" EntityType="sinarekModel.borongan" />
+    <EntitySet Name="boronganburuhs" EntityType="sinarekModel.boronganburuh" />
+    <EntitySet Name="botollogs" EntityType="sinarekModel.botollog" />
+    <EntitySet Name="comissions" EntityType="sinarekModel.comission" />
+    <EntitySet Name="companies" EntityType="sinarekModel.company" />
+    <EntitySet Name="custtypes" EntityType="sinarekModel.custtype" />
+    <EntitySet Name="formulae" EntityType="sinarekModel.formula" />
+    <EntitySet Name="gajibulanans" EntityType="sinarekModel.gajibulanan" />
+    <EntitySet Name="gajimingguans" EntityType="sinarekModel.gajimingguan" />
+    <EntitySet Name="gajitemplatealls" EntityType="sinarekModel.gajitemplateall" />
+    <EntitySet Name="gajitetaps" EntityType="sinarekModel.gajitetap" />
+    <EntitySet Name="genders" EntityType="sinarekModel.gender" />
+    <EntitySet Name="kernets" EntityType="sinarekModel.kernet" />
+    <EntitySet Name="kotas" EntityType="sinarekModel.kota" />
+    <EntitySet Name="lappens" EntityType="sinarekModel.lappen" />
+    <EntitySet Name="logdetails" EntityType="sinarekModel.logdetail" />
+    <EntitySet Name="logothers" EntityType="sinarekModel.logother" />
+    <EntitySet Name="logpels" EntityType="sinarekModel.logpel" />
+    <EntitySet Name="logproducts" EntityType="sinarekModel.logproduct" />
+    <EntitySet Name="members" EntityType="sinarekModel.member" />
+    <EntitySet Name="mobils" EntityType="sinarekModel.mobil" />
+    <EntitySet Name="nbs" EntityType="sinarekModel.nb" />
+    <EntitySet Name="nbdetails" EntityType="sinarekModel.nbdetail" />
+    <EntitySet Name="pels" EntityType="sinarekModel.pel" />
+    <EntitySet Name="pelunasans" EntityType="sinarekModel.pelunasan" />
+    <EntitySet Name="pengisians" EntityType="sinarekModel.pengisian" />
+    <EntitySet Name="pinjamen" EntityType="sinarekModel.pinjaman" />
+    <EntitySet Name="printlogs" EntityType="sinarekModel.printlog" />
+    <EntitySet Name="prodreports" EntityType="sinarekModel.prodreport" />
+    <EntitySet Name="products" EntityType="sinarekModel.product" />
+    <EntitySet Name="productbases" EntityType="sinarekModel.productbase" />
+    <EntitySet Name="productprices" EntityType="sinarekModel.productprice" />
+    <EntitySet Name="producttotals" EntityType="sinarekModel.producttotal" />
+    <EntitySet Name="producttotalusers" EntityType="sinarekModel.producttotaluser" />
+    <EntitySet Name="producttrans" EntityType="sinarekModel.producttran" />
+    <EntitySet Name="producttranstotals" EntityType="sinarekModel.producttranstotal" />
+    <EntitySet Name="rinciangajis" EntityType="sinarekModel.rinciangaji" />
+    <EntitySet Name="rinciangajikoreksis" EntityType="sinarekModel.rinciangajikoreksi" />
+    <EntitySet Name="rinciangajitemps" EntityType="sinarekModel.rinciangajitemp" />
+    <EntitySet Name="saldocutis" EntityType="sinarekModel.saldocuti" />
+    <EntitySet Name="sales" EntityType="sinarekModel.sale" />
+    <EntitySet Name="salescomissions" EntityType="sinarekModel.salescomission" />
+    <EntitySet Name="satpams" EntityType="sinarekModel.satpam" />
+    <EntitySet Name="shifts" EntityType="sinarekModel.shift" />
+    <EntitySet Name="shiftdays" EntityType="sinarekModel.shiftday" />
+    <EntitySet Name="sjstats" EntityType="sinarekModel.sjstat" />
+    <EntitySet Name="sopirs" EntityType="sinarekModel.sopir" />
+    <EntitySet Name="staffs" EntityType="sinarekModel.staff" />
+    <EntitySet Name="statbars" EntityType="sinarekModel.statbar" />
+    <EntitySet Name="statbots" EntityType="sinarekModel.statbot" />
+    <EntitySet Name="stores" EntityType="sinarekModel.store" />
+    <EntitySet Name="storebots" EntityType="sinarekModel.storebot" />
+    <EntitySet Name="storebotdetails" EntityType="sinarekModel.storebotdetail" />
+    <EntitySet Name="storeins" EntityType="sinarekModel.storein" />
+    <EntitySet Name="storeouts" EntityType="sinarekModel.storeout" />
+    <EntitySet Name="storeuses" EntityType="sinarekModel.storeuse" />
+    <EntitySet Name="sups" EntityType="sinarekModel.sup" />
+    <EntitySet Name="syslogs" EntityType="sinarekModel.syslog" />
+    <EntitySet Name="tiers" EntityType="sinarekModel.tier" />
+    <EntitySet Name="tipeaccounts" EntityType="sinarekModel.tipeaccount" />
+    <EntitySet Name="tipedendas" EntityType="sinarekModel.tipedenda" />
+    <EntitySet Name="tipehadirs" EntityType="sinarekModel.tipehadir" />
+    <EntitySet Name="tipemembers" EntityType="sinarekModel.tipemember" />
+    <EntitySet Name="tipepembayarans" EntityType="sinarekModel.tipepembayaran" />
+    <EntitySet Name="tipeprods" EntityType="sinarekModel.tipeprod" />
+    <EntitySet Name="tiperinciangajis" EntityType="sinarekModel.tiperinciangaji" />
+    <EntitySet Name="tlocationprices" EntityType="sinarekModel.tlocationprice" />
+    <EntitySet Name="transports" EntityType="sinarekModel.transport" />
+    <EntitySet Name="tunits" EntityType="sinarekModel.tunit" />
+    <EntitySet Name="uangjalans" EntityType="sinarekModel.uangjalan" />
+    <EntitySet Name="usebotdetails" EntityType="sinarekModel.usebotdetail" />
+    <EntitySet Name="vabsenmingguansummaries" EntityType="sinarekModel.vabsenmingguansummary" />
+    <EntitySet Name="vallsups" EntityType="sinarekModel.vallsup" />
+    <EntitySet Name="vborongans" EntityType="sinarekModel.vborongan" />
+    <EntitySet Name="vboronganalls" EntityType="sinarekModel.vboronganall" />
+    <EntitySet Name="vborongannews" EntityType="sinarekModel.vborongannew" />
+    <EntitySet Name="vbotolkotors" EntityType="sinarekModel.vbotolkotor" />
+    <EntitySet Name="vpengisians" EntityType="sinarekModel.vpengisian" />
+    <EntitySet Name="vproductbases" EntityType="sinarekModel.vproductbase" />
+    <EntitySet Name="vproductprices" EntityType="sinarekModel.vproductprice" />
+    <EntitySet Name="vrinciangajis" EntityType="sinarekModel.vrinciangaji" />
+    <EntitySet Name="vrinciangajiabsens" EntityType="sinarekModel.vrinciangajiabsen" />
+    <EntitySet Name="vsaldocutis" EntityType="sinarekModel.vsaldocuti" />
+    <EntitySet Name="vujs" EntityType="sinarekModel.vuj" />
+  </EntityContainer>
+  <EntityType Name="absenall">
+    <Key>
+      <PropertyRef Name="Absenid" />
+    </Key>
+    <Property Name="Absenid" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="memberid" Type="Int32" Nullable="false" />
+    <Property Name="tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="tipehadirid" Type="Int32" Nullable="false" />
+    <Property Name="pagi" Type="Boolean" Nullable="false" />
+    <Property Name="sore" Type="Boolean" Nullable="false" />
+    <Property Name="createdby" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="created" Type="DateTime" Nullable="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="modifiedby" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="keterangan" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="GMID" Type="Int32" Nullable="false" />
+    <Property Name="GBID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="accpayment">
+    <Key>
+      <PropertyRef Name="paymentid" />
+    </Key>
+    <Property Name="paymentid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="transID" Type="Int32" Nullable="false" />
+    <Property Name="accID" Type="Int32" Nullable="false" />
+    <Property Name="typeid" Type="Int16" Nullable="false" />
+    <Property Name="VALUE" Type="Decimal" Nullable="false" />
+    <Property Name="Tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="proof" Type="Boolean" Nullable="false" />
+    <Property Name="Keterangan1" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Keterangan2" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="keterangan3" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="linkid" Type="Int32" Nullable="false" />
+    <Property Name="used" Type="Boolean" Nullable="false" />
+    <Property Name="created" Type="DateTime" Nullable="false" />
+    <Property Name="createdby" Type="String" Nullable="false" MaxLength="150" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="acctran">
+    <Key>
+      <PropertyRef Name="transid" />
+    </Key>
+    <Property Name="transid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="accountid" Type="Int32" Nullable="false" />
+    <Property Name="unit" Type="Decimal" Nullable="false" />
+    <Property Name="category" Type="Boolean" Nullable="false" />
+    <Property Name="tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="price" Type="Decimal" Nullable="false" />
+    <Property Name="adjustment" Type="Decimal" Nullable="false" />
+    <Property Name="custid" Type="Int32" Nullable="false" />
+    <Property Name="custtypeid" Type="Int32" Nullable="false" />
+    <Property Name="linktype" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="linkid" Type="Int32" />
+    <Property Name="created" Type="DateTime" Nullable="false" />
+    <Property Name="createdby" Type="String" Nullable="false" MaxLength="1500" Unicode="false" FixedLength="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="modifiedby" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="actionlog">
+    <Key>
+      <PropertyRef Name="actionid" />
+    </Key>
+    <Property Name="Tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="statusid" Type="Int16" Nullable="false" />
+    <Property Name="actionid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="actionby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="keterangan" Type="String" Nullable="false" MaxLength="65535" Unicode="false" FixedLength="false" />
+    <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="borongan">
+    <Key>
+      <PropertyRef Name="BoronganID" />
+    </Key>
+    <Property Name="Tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="MulaiBorongan" Type="Time" Nullable="false" />
+    <Property Name="SelesaiBorongan" Type="Time" Nullable="false" />
+    <Property Name="JumlahOrang" Type="SByte" Nullable="false" />
+    <Property Name="TipeBorongan" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="ProductID" Type="Int32" Nullable="false" />
+    <Property Name="HasilBorongan" Type="Decimal" Nullable="false" />
+    <Property Name="Pecah" Type="Int32" Nullable="false" />
+    <Property Name="NoPeti" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="BoronganID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Created" Type="DateTime" Nullable="false" />
+    <Property Name="User" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="BoronganPerJam" Type="Decimal" Nullable="false" />
+    <Property Name="LamaBorongan" Type="Decimal" Nullable="false" />
+    <Property Name="HargaB" Type="Decimal" Nullable="false" />
+    <Property Name="HargaSatuan" Type="Decimal" Nullable="false" />
+    <Property Name="Keterangan" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="boronganburuh">
+    <Key>
+      <PropertyRef Name="BoronganBuruhID" />
+    </Key>
+    <Property Name="BuruhID" Type="Int32" Nullable="false" />
+    <Property Name="BoronganID" Type="Int32" Nullable="false" />
+    <Property Name="BoronganBuruhID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="botollog">
+    <Key>
+      <PropertyRef Name="BLogID" />
+    </Key>
+    <Property Name="BLogID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PelID" Type="Int32" Nullable="false" />
+    <Property Name="Tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="TipeTransID" Type="Int32" Nullable="false" />
+    <Property Name="TipeTrans" Type="Boolean" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="Source" Type="Boolean" Nullable="false" />
+    <Property Name="SourceDet" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="USer" Type="String" Nullable="false" MaxLength="25" Unicode="false" FixedLength="false" />
+    <Property Name="Modified" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="comission">
+    <Key>
+      <PropertyRef Name="CommisionID" />
+    </Key>
+    <Property Name="CommisionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BaseID" Type="Int32" Nullable="false" />
+    <Property Name="Value" Type="Decimal" Nullable="false" />
+    <Property Name="Cash" Type="Boolean" Nullable="false" />
+    <Property Name="DalamKota" Type="Boolean" Nullable="false" />
+    <Property Name="Modified" Type="DateTime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="company">
+    <Key>
+      <PropertyRef Name="CompanyID" />
+    </Key>
+    <Property Name="CompanyID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nama" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="custtype">
+    <Key>
+      <PropertyRef Name="CustTypeID" />
+    </Key>
+    <Property Name="CustTypeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Init" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="SystemOnly" Type="Boolean" Nullable="false" />
+    <Property Name="Storage" Type="Boolean" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="formula">
+    <Key>
+      <PropertyRef Name="FormulaID" />
+    </Key>
+    <Property Name="FormulaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nama" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="gajibulanan">
+    <Key>
+      <PropertyRef Name="GBID" />
+    </Key>
+    <Property Name="GBID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" />
+    <Property Name="EndDate" Type="DateTime" Nullable="false" />
+    <Property Name="WorkDays" Type="Int16" Nullable="false" />
+    <Property Name="Days" Type="Int16" Nullable="false" />
+    <Property Name="Holiday" Type="Int16" Nullable="false" />
+    <Property Name="HolidaySun" Type="Int16" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" />
+    <Property Name="PrintedStaff" Type="Boolean" Nullable="false" />
+    <Property Name="PrintedStaffBy" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="PrintedSales" Type="Boolean" Nullable="false" />
+    <Property Name="PrintedSalesBy" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="PrintedComission" Type="Boolean" Nullable="false" />
+    <Property Name="PrintedComissionBy" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="PrintedOther" Type="Boolean" Nullable="false" />
+    <Property Name="PrintedOtherBy" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="TotalStaff" Type="Decimal" Nullable="false" />
+    <Property Name="TotalSales" Type="Decimal" Nullable="false" />
+    <Property Name="TotalComission" Type="Decimal" Nullable="false" />
+    <Property Name="TotalOther" Type="Decimal" Nullable="false" />
+    <Property Name="TotalPaid" Type="Decimal" Nullable="false" />
+    <Property Name="User" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="gajimingguan">
+    <Key>
+      <PropertyRef Name="GMID" />
+    </Key>
+    <Property Name="GMID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" />
+    <Property Name="EndDate" Type="DateTime" Nullable="false" />
+    <Property Name="WeekEndDate" Type="DateTime" Nullable="false" />
+    <Property Name="Printed" Type="Boolean" Nullable="false" />
+    <Property Name="PrintedBy" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="BoronganStartDate" Type="DateTime" Nullable="false" />
+    <Property Name="BoronganEndDate" Type="DateTime" Nullable="false" />
+    <Property Name="ResStartDate" Type="DateTime" Nullable="false" />
+    <Property Name="ResEndDate" Type="DateTime" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" />
+    <Property Name="User" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="gajitemplateall">
+    <Key>
+      <PropertyRef Name="templateid" />
+    </Key>
+    <Property Name="templateid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="memberid" Type="Int32" Nullable="false" />
+    <Property Name="tipeid" Type="Int32" Nullable="false" />
+    <Property Name="Unit" Type="Decimal" Nullable="false" />
+    <Property Name="Value" Type="Decimal" Nullable="false" />
+    <Property Name="CalculationID" Type="Int16" Nullable="false" />
+    <Property Name="TipePembayaranID" Type="Int16" Nullable="false" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="keterangan" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="gajitetap">
+    <Key>
+      <PropertyRef Name="templateid" />
+    </Key>
+    <Property Name="BuruhID" Type="Int32" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" />
+    <Property Name="EndDate" Type="DateTime" />
+    <Property Name="tipeid" Type="Int32" Nullable="false" />
+    <Property Name="unitvalue" Type="Decimal" Nullable="false" />
+    <Property Name="keterangan" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="templateid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="modifiedby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="created" Type="DateTime" Nullable="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="createdby" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="gender">
+    <Key>
+      <PropertyRef Name="Code" />
+      <PropertyRef Name="Description" />
+    </Key>
+    <Property Name="Code" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="kernet">
+    <Key>
+      <PropertyRef Name="KernetID" />
+    </Key>
+    <Property Name="KernetID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nama" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Short" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="From" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="ID" Type="Int32" />
+    <Property Name="Keterangan" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Active" Type="SByte" Nullable="false" />
+  </EntityType>
+  <EntityType Name="kota">
+    <Key>
+      <PropertyRef Name="KotaID" />
+    </Key>
+    <Property Name="KotaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nama" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Short" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Jarak" Type="Decimal" Nullable="false" />
+    <Property Name="ResSopir" Type="Decimal" Nullable="false" />
+    <Property Name="ResSopirBulanan" Type="Decimal" Nullable="false" />
+    <Property Name="ResKernet" Type="Decimal" Nullable="false" />
+    <Property Name="Zone" Type="Int16" Nullable="false" />
+    <Property Name="Tambahan" Type="Decimal" Nullable="false" />
+    <Property Name="SystemOnly" Type="SByte" Nullable="false" />
+    <Property Name="UangJalan" Type="Decimal" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lappen">
+    <Key>
+      <PropertyRef Name="lappenid" />
+    </Key>
+    <Property Name="lappenid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tipe" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="logid" Type="Int32" Nullable="false" />
+    <Property Name="tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="enddate" Type="DateTime" Nullable="false" />
+    <Property Name="created" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="createdby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="modifiedby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="statusid" Type="Boolean" Nullable="false" />
+    <Property Name="printed" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="logdetail">
+    <Key>
+      <PropertyRef Name="Detailid" />
+    </Key>
+    <Property Name="Detailid" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Logid" Type="Int64" Nullable="false" />
+    <Property Name="BaseID" Type="Int32" Nullable="false" />
+    <Property Name="custtypeid" Type="Int32" Nullable="false" />
+    <Property Name="custtypetoid" Type="Int32" Nullable="false" />
+    <Property Name="Expired" Type="Boolean" />
+    <Property Name="ExpireDate" Type="DateTime" />
+    <Property Name="Keterangan" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Quantity" Type="Decimal" Nullable="false" />
+    <Property Name="Status" Type="Int16" Nullable="false" />
+    <Property Name="price" Type="Decimal" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" />
+    <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Modified" Type="DateTime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="logother">
+    <Key>
+      <PropertyRef Name="LogDetailID" />
+    </Key>
+    <Property Name="Logid" Type="Int64" Nullable="false" />
+    <Property Name="LogDetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="logpelid" Type="Int32" Nullable="false" />
+    <Property Name="lappenid" Type="Int32" Nullable="false" />
+    <Property Name="Tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="Keterangan" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Expired" Type="Boolean" Nullable="false" />
+    <Property Name="StatusID" Type="Boolean" Nullable="false" />
+    <Property Name="ExpireDate" Type="DateTime" />
+    <Property Name="Quantity" Type="Decimal" Nullable="false" />
+    <Property Name="BaseID" Type="Int32" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Nullable="false" />
+    <Property Name="KotaID" Type="Int32" Nullable="false" />
+    <Property Name="Nota" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Detail2" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Detail3" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Modified" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="logpel">
+    <Key>
+      <PropertyRef Name="LogPelID" />
+    </Key>
+    <Property Name="LogPelID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PelID" Type="Int32" Nullable="false" />
+    <Property Name="LogID" Type="Int32" Nullable="false" />
+    <Property Name="Tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="Credit" Type="Boolean" Nullable="false" />
+    <Property Name="Tagih" Type="Boolean" Nullable="false" />
+    <Property Name="SalesID" Type="Int32" Nullable="false" />
+    <Property Name="Printed" Type="Boolean" Nullable="false" />
+    <Property Name="TanggalTagih" Type="DateTime" />
+    <Property Name="Created" Type="DateTime" Nullable="false" />
+    <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Modified" Type="DateTime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="logproduct">
+    <Key>
+      <PropertyRef Name="Logid" />
+    </Key>
+    <Property Name="Logid" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NoSJ" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="ParentLogID" Type="Int32" Nullable="false" />
+    <Property Name="Tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="TanggalOrder" Type="DateTime" />
+    <Property Name="category" Type="Boolean" Nullable="false" />
+    <Property Name="Kernetid" Type="Int32" />
+    <Property Name="KotaID" Type="Int32" Nullable="false" />
+    <Property Name="SalesID" Type="Int32" Nullable="false" />
+    <Property Name="SopirID" Type="Int32" />
+    <Property Name="Mobil" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="MobilID" Type="Int32" />
+    <Property Name="Sopir" Type="String" Nullable="false" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="Keterangan" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="CustID" Type="Int32" Nullable="false" />
+    <Property Name="TransTypeID" Type="Int32" Nullable="false" />
+    <Property Name="CustTypeID" Type="Int32" Nullable="false" />
+    <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Modified" Type="DateTime" Nullable="false" />
+    <Property Name="Paid" Type="Boolean" Nullable="false" />
+    <Property Name="Printed" Type="Boolean" Nullable="false" />
+    <Property Name="StatusID" Type="Int16" Nullable="false" />
+    <Property Name="Order" Type="Boolean" Nullable="false" />
+    <Property Name="c" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="member">
+    <Key>
+      <PropertyRef Name="MemberID" />
+    </Key>
+    <Property Name="MemberID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TipeMemberID" Type="Int32" Nullable="false" />
+    <Property Name="shiftid" Type="Int32" Nullable="false" />
+    <Property Name="MasukKerja" Type="DateTime" Nullable="false" />
+    <Property Name="KeluarKerja" Type="DateTime" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Gender" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="KTP" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+    <Property Name="Contact" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Sopir" Type="Boolean" Nullable="false" />
+    <Property Name="Kernet" Type="Boolean" Nullable="false" />
+    <Property Name="Sales" Type="Boolean" Nullable="false" />
+    <Property Name="Manager" Type="Boolean" Nullable="false" />
+    <Property Name="fingerid" Type="Int16" Nullable="false" />
+    <Property Name="Keterangan" Type="String" MaxLength="65535" Unicode="false" FixedLength="false" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" />
+    <Property Name="Createdby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Modified" Type="DateTime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="mobil">
+    <Key>
+      <PropertyRef Name="MobilID" />
+    </Key>
+    <Property Name="MobilID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NoPolis" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Tipe" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="nb">
+    <Key>
+      <PropertyRef Name="nbid" />
+    </Key>
+    <Property Name="nbid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="logid" Type="Int32" Nullable="false" />
+    <Property Name="sisaid" Type="Int32" />
+    <Property Name="keterangan" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="created" Type="DateTime" Nullable="false" />
+    <Property Name="createdby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="modifiedby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="nbdetail">
+    <Key>
+      <PropertyRef Name="nbdetailid" />
+    </Key>
+    <Property Name="nbdetailid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="logid" Type="Int32" Nullable="false" />
+    <Property Name="baseid" Type="Int32" Nullable="false" />
+    <Property Name="quantitysisa" Type="Decimal" />
+    <Property Name="quantity" Type="Decimal" Nullable="false" />
+    <Property Name="nopeti" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="keterangan" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="created" Type="DateTime" Nullable="false" />
+    <Property Name="createdby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="modifiedby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="pel">
+    <Key>
+      <PropertyRef Name="custid" />
+    </Key>
+    <Property Name="custid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="kotaid" Type="Int32" />
+    <Property Name="Contact" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="SalesID" Type="Int32" Nullable="false" />
+    <Property Name="Direct" Type="Boolean" Nullable="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="modifiedby" Type="String" Nullable="false" MaxLength="25" Unicode="false" FixedLength="false" />
+    <Property Name="active" Type="SByte" Nullable="false" />
+  </EntityType>
+  <EntityType Name="pelunasan">
+    <Key>
+      <PropertyRef Name="lunasid" />
+    </Key>
+    <Property Name="lunasid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="tipe" Type="String" Nullable="false" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="tanggal" Type="Int32" Nullable="false" />
+    <Property Name="Value" Type="Decimal" Nullable="false" />
+    <Property Name="kasid" Type="Int32" Nullable="false" />
+    <Property Name="created" Type="DateTime" Nullable="false" />
+    <Property Name="createdby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="modifiedby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="pengisian">
+    <Key>
+      <PropertyRef Name="PengisianID" />
+    </Key>
+    <Property Name="PengisianID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SopirID" Type="Int32" Nullable="false" />
+    <Property Name="MobilID" Type="Int32" Nullable="false" />
+    <Property Name="KotaID" Type="Int32" Nullable="false" />
+    <Property Name="KM" Type="Decimal" Nullable="false" />
+    <Property Name="TempatIsi" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Biaya" Type="Decimal" Nullable="false" />
+    <Property Name="Ltr" Type="Decimal" Nullable="false" />
+    <Property Name="SuratJalan" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" />
+    <Property Name="User" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Tanggal" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="pinjaman">
+    <Key>
+      <PropertyRef Name="pinjamanid" />
+    </Key>
+    <Property Name="BuruhID" Type="Int32" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" />
+    <Property Name="EndDate" Type="DateTime" />
+    <Property Name="tipeid" Type="Int32" Nullable="false" />
+    <Property Name="unitvalue" Type="Decimal" Nullable="false" />
+    <Property Name="TotalPinjaman" Type="Decimal" Nullable="false" />
+    <Property Name="TotalBayar" Type="Decimal" Nullable="false" />
+    <Property Name="JumlahAngsuran" Type="Int32" Nullable="false" />
+    <Property Name="Bayar" Type="Int32" Nullable="false" />
+    <Property Name="keterangan" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Alasan" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="pinjamanid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="modifiedby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="created" Type="DateTime" Nullable="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="createdby" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="printlog">
+    <Key>
+      <PropertyRef Name="logid" />
+    </Key>
+    <Property Name="logid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tablename" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="reportname" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Details" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="user" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="created" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="prodreport">
+    <Key>
+      <PropertyRef Name="ProdReportID" />
+      <PropertyRef Name="ProductBaseID" />
+      <PropertyRef Name="CustTypeID" />
+      <PropertyRef Name="Description" />
+      <PropertyRef Name="Created" />
+      <PropertyRef Name="CreatedBy" />
+    </Key>
+    <Property Name="ProdReportID" Type="Int32" Nullable="false" />
+    <Property Name="ProductBaseID" Type="Int32" Nullable="false" />
+    <Property Name="CustTypeID" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="Int32" Nullable="false" />
+    <Property Name="Created" Type="Int32" Nullable="false" />
+    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="productid" />
+    </Key>
+    <Property Name="productid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Short" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="productbase">
+    <Key>
+      <PropertyRef Name="baseid" />
+    </Key>
+    <Property Name="baseid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="parentid" Type="Int32" Nullable="false" />
+    <Property Name="tipeid" Type="Int32" Nullable="false" />
+    <Property Name="productid" Type="Int32" Nullable="false" />
+    <Property Name="ProductName" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="ProductShort" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="custtypeid" Type="Int32" Nullable="false" />
+    <Property Name="unitid" Type="Int32" Nullable="false" />
+    <Property Name="UnitName" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="UnitShort" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="ConvRate" Type="Decimal" Nullable="false" />
+    <Property Name="price" Type="Decimal" Nullable="false" />
+    <Property Name="Keterangan" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Sellable" Type="Boolean" Nullable="false" />
+    <Property Name="Goods" Type="Boolean" Nullable="false" />
+    <Property Name="Others" Type="Boolean" Nullable="false" />
+    <Property Name="Updatable" Type="Boolean" Nullable="false" />
+    <Property Name="Borongan" Type="Boolean" Nullable="false" />
+    <Property Name="HargaB" Type="Decimal" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <Property Name="ByProduct" Type="Int32" Nullable="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="TargetQuantifier" Type="Decimal" Nullable="false" />
+  </EntityType>
+  <EntityType Name="productprice">
+    <Key>
+      <PropertyRef Name="ProdPriceID" />
+    </Key>
+    <Property Name="ProdPriceID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BaseID" Type="Int32" Nullable="false" />
+    <Property Name="KotaID" Type="Int32" Nullable="false" />
+    <Property Name="Modified" Type="DateTime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="price" Type="Decimal" Nullable="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="producttotal">
+    <Key>
+      <PropertyRef Name="totalid" />
+    </Key>
+    <Property Name="totalid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="Hari" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="TipeTransaksi" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Ket" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="baseid" Type="Int32" Nullable="false" />
+    <Property Name="value" Type="Decimal" Nullable="false" />
+    <Property Name="adjustedval" Type="Decimal" Nullable="false" />
+    <Property Name="adjusted" Type="Boolean" Nullable="false" />
+    <Property Name="Keterangan" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="createdby" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="created" Type="DateTime" Nullable="false" />
+    <Property Name="modifiedby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="producttotaluser">
+    <Key>
+      <PropertyRef Name="totalid" />
+    </Key>
+    <Property Name="totalid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="keterangan" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="baseid" Type="Int32" Nullable="false" />
+    <Property Name="sisa" Type="Decimal" Nullable="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="createdby" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="created" Type="DateTime" Nullable="false" />
+    <Property Name="modifiedby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="producttran">
+    <Key>
+      <PropertyRef Name="bktid" />
+    </Key>
+    <Property Name="bktid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="baseid" Type="Int32" Nullable="false" />
+    <Property Name="supid" Type="Int32" Nullable="false" />
+    <Property Name="custid" Type="Int32" Nullable="false" />
+    <Property Name="tipe" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="quantity" Type="Decimal" Nullable="false" />
+    <Property Name="nonota" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="keterangan" Type="Int32" />
+    <Property Name="logdetailid" Type="Int32" />
+    <Property Name="createdby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="created" Type="DateTime" Nullable="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="category" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="producttranstotal">
+    <Key>
+      <PropertyRef Name="bktid" />
+    </Key>
+    <Property Name="bktid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="baseid" Type="Int32" Nullable="false" />
+    <Property Name="supid" Type="Int32" Nullable="false" />
+    <Property Name="Awal" Type="Decimal" Nullable="false" />
+    <Property Name="Akhir" Type="Decimal" Nullable="false" />
+    <Property Name="keterangan" Type="Int32" />
+    <Property Name="enddate" Type="DateTime" Nullable="false" />
+    <Property Name="completed" Type="Boolean" Nullable="false" />
+    <Property Name="storeid" Type="Int32" Nullable="false" />
+    <Property Name="tierid" Type="Int32" Nullable="false" />
+    <Property Name="createdby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="created" Type="DateTime" Nullable="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="rinciangaji">
+    <Key>
+      <PropertyRef Name="rinciangajiid" />
+    </Key>
+    <Property Name="rinciangajiid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MemberID" Type="Int32" Nullable="false" />
+    <Property Name="GID" Type="Int32" Nullable="false" />
+    <Property Name="tipepembayaranid" Type="Int32" Nullable="false" />
+    <Property Name="tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="tipeid" Type="Int32" Nullable="false" />
+    <Property Name="unit" Type="Single" Nullable="false" />
+    <Property Name="unitvalue" Type="Decimal" Nullable="false" />
+    <Property Name="keterangan" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="templateid" Type="Int32" />
+    <Property Name="CalculateID" Type="Boolean" Nullable="false" />
+    <Property Name="modifiedby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="created" Type="DateTime" Nullable="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="createdby" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="rinciangajikoreksi">
+    <Key>
+      <PropertyRef Name="rinciangajiid" />
+    </Key>
+    <Property Name="rinciangajiid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MemberID" Type="Int32" Nullable="false" />
+    <Property Name="GID" Type="Int32" Nullable="false" />
+    <Property Name="tipepembayaranid" Type="Int32" Nullable="false" />
+    <Property Name="tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="tipeid" Type="Int32" Nullable="false" />
+    <Property Name="unit" Type="Single" Nullable="false" />
+    <Property Name="unitvalue" Type="Decimal" Nullable="false" />
+    <Property Name="keterangan" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="templateid" Type="Int32" />
+    <Property Name="CalculateID" Type="Boolean" Nullable="false" />
+    <Property Name="modifiedby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="created" Type="DateTime" Nullable="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="createdby" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="rinciangajitemp">
+    <Key>
+      <PropertyRef Name="TempID" />
+    </Key>
+    <Property Name="TempID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BuruhID" Type="Int32" Nullable="false" />
+    <Property Name="Tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="Type" Type="Int16" Nullable="false" />
+    <Property Name="Value" Type="Decimal" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" />
+    <Property Name="User" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Paid" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="saldocuti">
+    <Key>
+      <PropertyRef Name="SaldoID" />
+    </Key>
+    <Property Name="SaldoID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MemberID" Type="Int32" Nullable="false" />
+    <Property Name="Saldo" Type="Int16" Nullable="false" />
+    <Property Name="Tahun" Type="Int16" Nullable="false" />
+    <Property Name="Terpakai" Type="Int16" Nullable="false" />
+    <Property Name="CutiBersama" Type="Int16" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sale">
+    <Key>
+      <PropertyRef Name="SalesID" />
+    </Key>
+    <Property Name="SalesID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nama" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Short" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Target" Type="Int64" Nullable="false" />
+    <Property Name="From" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="ID" Type="Int32" />
+    <Property Name="Keterangan" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Active" Type="SByte" Nullable="false" />
+  </EntityType>
+  <EntityType Name="salescomission">
+    <Key>
+      <PropertyRef Name="SalesComID" />
+    </Key>
+    <Property Name="SalesComID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SalesID" Type="Int32" Nullable="false" />
+    <Property Name="GBID" Type="Int32" Nullable="false" />
+    <Property Name="TargetBulanan" Type="Int32" Nullable="false" />
+    <Property Name="TargetHarian" Type="Int32" Nullable="false" />
+    <Property Name="TargetCapai" Type="Decimal" Nullable="false" />
+    <Property Name="Value" Type="Decimal" Nullable="false" />
+    <Property Name="OriginalValue" Type="Decimal" Nullable="false" />
+    <Property Name="Keterangan" Type="String" Nullable="false" MaxLength="65535" Unicode="false" FixedLength="false" />
+    <Property Name="Printed" Type="Boolean" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" />
+    <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Modified" Type="DateTime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="satpam">
+    <Key>
+      <PropertyRef Name="SatpamID" />
+    </Key>
+    <Property Name="SatpamID" Type="Int32" Nullable="false" />
+    <Property Name="MasukKerja" Type="DateTime" Nullable="false" />
+    <Property Name="CurrentWage" Type="Decimal" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Modified" Type="DateTime" Nullable="false" />
+    <Property Name="User" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Gender" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="CompanyID" Type="Int32" Nullable="false" />
+    <Property Name="MemberID" Type="Int32" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <Property Name="FingerID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="shift">
+    <Key>
+      <PropertyRef Name="shiftid" />
+    </Key>
+    <Property Name="shiftid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="timestart" Type="Time" Nullable="false" />
+    <Property Name="timeend" Type="Time" Nullable="false" />
+    <Property Name="user" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="Nama" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="shiftday">
+    <Key>
+      <PropertyRef Name="shiftdayid" />
+    </Key>
+    <Property Name="shiftdayid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="dayname" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="timestart" Type="Time" Nullable="false" />
+    <Property Name="timeend" Type="Time" Nullable="false" />
+    <Property Name="shiftid" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sjstat">
+    <Key>
+      <PropertyRef Name="StatusID" />
+    </Key>
+    <Property Name="StatusID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nama" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sopir">
+    <Key>
+      <PropertyRef Name="SopirID" />
+    </Key>
+    <Property Name="SopirID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nama" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="ID" Type="Int32" />
+    <Property Name="Short" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Keterangan" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="From" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="staff">
+    <Key>
+      <PropertyRef Name="StaffID" />
+    </Key>
+    <Property Name="StaffID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MasukKerja" Type="DateTime" />
+    <Property Name="EndDate" Type="DateTime" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Modified" Type="DateTime" Nullable="false" />
+    <Property Name="User" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Gender" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="CompanyID" Type="Int32" Nullable="false" />
+    <Property Name="MemberID" Type="Int32" />
+    <Property Name="Manager" Type="Boolean" Nullable="false" />
+    <Property Name="General" Type="Boolean" Nullable="false" />
+    <Property Name="Sales" Type="Boolean" Nullable="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <Property Name="FingerID" Type="Int32" />
+    <Property Name="passthrough" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="logname" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="loguseronly" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="statbar">
+    <Key>
+      <PropertyRef Name="statusbarangid" />
+    </Key>
+    <Property Name="statusbarangid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nama" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="statbot">
+    <Key>
+      <PropertyRef Name="statusid" />
+    </Key>
+    <Property Name="statusid" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nama" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="store">
+    <Key>
+      <PropertyRef Name="StoreID" />
+    </Key>
+    <Property Name="StoreID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BaseID" Type="Int32" Nullable="false" />
+    <Property Name="TierID" Type="Int32" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" />
+    <Property Name="EndDate" Type="DateTime" />
+    <Property Name="StartUseDate" Type="DateTime" />
+    <Property Name="EndUseDate" Type="DateTime" />
+    <Property Name="PanjarPercent" Type="Decimal" Nullable="false" />
+    <Property Name="PanjarCuci" Type="Decimal" Nullable="false" />
+    <Property Name="OngkosCuci" Type="Decimal" Nullable="false" />
+    <Property Name="StatusID" Type="Int32" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" />
+    <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Modified" Type="DateTime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="PrintedM" Type="Boolean" Nullable="false" />
+    <Property Name="PrintedP" Type="Boolean" Nullable="false" />
+    <Property Name="PrintedL" Type="Boolean" Nullable="false" />
+    <Property Name="TotalLunas" Type="Decimal" Nullable="false" />
+    <Property Name="TanggalLunas" Type="DateTime" />
+    <Property Name="TotalNilai" Type="Decimal" Nullable="false" />
+    <Property Name="SupID" Type="Int32" Nullable="false" />
+    <Property Name="KasID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="storebot">
+    <Key>
+      <PropertyRef Name="StoreID" />
+    </Key>
+    <Property Name="StoreID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductID" Type="Int32" Nullable="false" />
+    <Property Name="TierID" Type="Int32" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" />
+    <Property Name="EndDate" Type="DateTime" />
+    <Property Name="StartUseDate" Type="DateTime" />
+    <Property Name="EndUseDate" Type="DateTime" />
+    <Property Name="PanjarPercent" Type="Decimal" Nullable="false" />
+    <Property Name="PanjarCuci" Type="Decimal" Nullable="false" />
+    <Property Name="StatusID" Type="Int32" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" />
+    <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Modified" Type="DateTime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="SupID" Type="Int32" Nullable="false" />
+    <Property Name="KasID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="storebotdetail">
+    <Key>
+      <PropertyRef Name="DetailID" />
+    </Key>
+    <Property Name="DetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StoreBotID" Type="Int32" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Nullable="false" />
+    <Property Name="LogDetailID" Type="Int32" Nullable="false" />
+    <Property Name="KasID" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="Int16" Nullable="false" />
+    <Property Name="Tanggal" Type="DateTime" />
+    <Property Name="PaidDate" Type="DateTime" />
+    <Property Name="Modified" Type="DateTime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="storein">
+    <Key>
+      <PropertyRef Name="StoreInID" />
+    </Key>
+    <Property Name="StoreInID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StoreID" Type="Int32" Nullable="false" />
+    <Property Name="BaseID" Type="Int32" Nullable="false" />
+    <Property Name="tierid" Type="Int32" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="Tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="NoSJ" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="LogID" Type="Int32" Nullable="false" />
+    <Property Name="LogDetailID" Type="Int32" Nullable="false" />
+    <Property Name="OngkosCuci" Type="Boolean" Nullable="false" />
+    <Property Name="KasID" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="Int16" Nullable="false" />
+    <Property Name="PaidDate" Type="DateTime" />
+    <Property Name="Modified" Type="DateTime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="SupID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="storeout">
+    <Key>
+      <PropertyRef Name="StoreOutID" />
+    </Key>
+    <Property Name="StoreOutID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="storeid" Type="Int32" Nullable="false" />
+    <Property Name="tierid" Type="Int32" Nullable="false" />
+    <Property Name="supid" Type="Int32" Nullable="false" />
+    <Property Name="baseid" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Decimal" Nullable="false" />
+    <Property Name="nosj" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="LogDetailID" Type="Int32" Nullable="false" />
+    <Property Name="LogID" Type="Int32" Nullable="false" />
+    <Property Name="created" Type="DateTime" Nullable="false" />
+    <Property Name="createdby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="modifiedby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="storeuse">
+    <Key>
+      <PropertyRef Name="StoreUseID" />
+    </Key>
+    <Property Name="StoreUseID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="storeid" Type="Int32" Nullable="false" />
+    <Property Name="tierid" Type="Int32" Nullable="false" />
+    <Property Name="supid" Type="Int32" Nullable="false" />
+    <Property Name="baseid" Type="Int32" Nullable="false" />
+    <Property Name="awal" Type="Int64" Nullable="false" />
+    <Property Name="masuk" Type="Int64" Nullable="false" />
+    <Property Name="tambahan" Type="Int32" Nullable="false" />
+    <Property Name="pecah" Type="Int32" Nullable="false" />
+    <Property Name="sumbing" Type="Int32" Nullable="false" />
+    <Property Name="kotor" Type="Int32" Nullable="false" />
+    <Property Name="pindah" Type="Int32" Nullable="false" />
+    <Property Name="selisih" Type="Int16" Nullable="false" />
+    <Property Name="sisa" Type="Int64" Nullable="false" />
+    <Property Name="created" Type="DateTime" Nullable="false" />
+    <Property Name="createdby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="modifiedby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="tanggal" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sup">
+    <Key>
+      <PropertyRef Name="SupID" />
+    </Key>
+    <Property Name="SupID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="Kota" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Contact" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Expedisi" Type="Boolean" Nullable="false" />
+    <Property Name="Botol" Type="Boolean" Nullable="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="modifiedby" Type="String" Nullable="false" MaxLength="25" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="syslog">
+    <Key>
+      <PropertyRef Name="logid" />
+    </Key>
+    <Property Name="logid" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="formname" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="formtext" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="message" Type="String" Nullable="false" MaxLength="65535" Unicode="false" FixedLength="false" />
+    <Property Name="user" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tier">
+    <Key>
+      <PropertyRef Name="TierID" />
+    </Key>
+    <Property Name="TierID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nama" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Capacity" Type="Int32" Nullable="false" />
+    <Property Name="Location" Type="Int32" Nullable="false" />
+    <Property Name="Modified" Type="DateTime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tipeaccount">
+    <Key>
+      <PropertyRef Name="accountid" />
+    </Key>
+    <Property Name="accountid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="accNum" Type="Int16" />
+    <Property Name="accTipe" Type="SByte" />
+    <Property Name="Nama" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="SystemOnly" Type="Boolean" Nullable="false" />
+    <Property Name="Payment" Type="Boolean" Nullable="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="modifiedby" Type="String" Nullable="false" MaxLength="150" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tipedenda">
+    <Key>
+      <PropertyRef Name="tipedendaid" />
+    </Key>
+    <Property Name="tipedendaid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nama" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tipehadir">
+    <Key>
+      <PropertyRef Name="tipehadirid" />
+    </Key>
+    <Property Name="tipehadirid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nama" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="SystemOnly" Type="SByte" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tipemember">
+    <Key>
+      <PropertyRef Name="tipememberid" />
+    </Key>
+    <Property Name="tipememberid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tipepembayaran">
+    <Key>
+      <PropertyRef Name="TipePembayaranID" />
+    </Key>
+    <Property Name="TipePembayaranID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nama" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Modified" Type="DateTime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tipeprod">
+    <Key>
+      <PropertyRef Name="tipeid" />
+    </Key>
+    <Property Name="tipeid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="systemonly" Type="Boolean" Nullable="false" />
+    <Property Name="Modified" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tiperinciangaji">
+    <Key>
+      <PropertyRef Name="TipeID" />
+    </Key>
+    <Property Name="TipeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nama" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Category" Type="Boolean" Nullable="false" />
+    <Property Name="JumlahAbsen" Type="Boolean" Nullable="false" />
+    <Property Name="UpdateAbsen" Type="Boolean" Nullable="false" />
+    <Property Name="DefaultValue" Type="Single" Nullable="false" />
+    <Property Name="groupgajiid" Type="Int32" Nullable="false" />
+    <Property Name="systemonly" Type="Boolean" Nullable="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tlocationprice">
+    <Key>
+      <PropertyRef Name="LocationPriceID" />
+      <PropertyRef Name="ProductID" />
+      <PropertyRef Name="KotaID" />
+      <PropertyRef Name="Created" />
+      <PropertyRef Name="User" />
+    </Key>
+    <Property Name="LocationPriceID" Type="Int32" Nullable="false" />
+    <Property Name="ProductID" Type="Int32" Nullable="false" />
+    <Property Name="KotaID" Type="Int32" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" />
+    <Property Name="User" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="transport">
+    <Key>
+      <PropertyRef Name="transportid" />
+    </Key>
+    <Property Name="transportid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nama" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="contact" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="contactperson" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="user" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tunit">
+    <Key>
+      <PropertyRef Name="unitid" />
+    </Key>
+    <Property Name="unitid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Short" Type="String" Nullable="false" MaxLength="7" Unicode="false" FixedLength="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="parentid" Type="Int32" />
+    <Property Name="convrate" Type="Int16" Nullable="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="modifiedby" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="uangjalan">
+    <Key>
+      <PropertyRef Name="ujid" />
+    </Key>
+    <Property Name="ujid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="logid" Type="Int32" Nullable="false" />
+    <Property Name="NOSJ" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Tujuan" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="SopirName" Type="String" Nullable="false" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="MobilName" Type="String" Nullable="false" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="KernetName" Type="String" Nullable="false" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="kasid" Type="Int32" Nullable="false" />
+    <Property Name="value" Type="Decimal" Nullable="false" />
+    <Property Name="printed" Type="Boolean" Nullable="false" />
+    <Property Name="statusid" Type="Int32" Nullable="false" />
+    <Property Name="created" Type="DateTime" Nullable="false" />
+    <Property Name="createdby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="modifiedby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="usebotdetail">
+    <Key>
+      <PropertyRef Name="useid" />
+    </Key>
+    <Property Name="useid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="storeid" Type="Int32" Nullable="false" />
+    <Property Name="logid" Type="Int32" Nullable="false" />
+    <Property Name="Tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="Pecah" Type="Int32" Nullable="false" />
+    <Property Name="Kotor" Type="Int32" Nullable="false" />
+    <Property Name="Selisih" Type="Int32" Nullable="false" />
+    <Property Name="Sisa" Type="Int32" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" />
+    <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Modified" Type="DateTime" Nullable="false" />
+    <Property Name="ModfiedBy" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vabsenmingguansummary">
+    <Key>
+      <PropertyRef Name="memberid" />
+      <PropertyRef Name="gbid" />
+      <PropertyRef Name="gmid" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="memberid" Type="Int32" Nullable="false" />
+    <Property Name="gbid" Type="Int32" Nullable="false" />
+    <Property Name="gmid" Type="Int32" Nullable="false" />
+    <Property Name="KetLainLain" Type="String" MaxLength="147" Unicode="false" FixedLength="false" />
+    <Property Name="KetAll" Type="String" MaxLength="65535" Unicode="false" FixedLength="false" />
+    <Property Name="startdate" Type="DateTime" />
+    <Property Name="enddate" Type="DateTime" />
+    <Property Name="Hadir" Type="Decimal" />
+    <Property Name="kEHADIRAN" Type="Decimal" />
+    <Property Name="HariRaya" Type="Decimal" />
+    <Property Name="Ijin" Type="Decimal" />
+    <Property Name="Alpa" Type="Decimal" />
+    <Property Name="Cuti" Type="Decimal" />
+    <Property Name="Sakit" Type="Decimal" />
+    <Property Name="CutiTahunan" Type="Decimal" />
+    <Property Name="KetCutiTahunan" Type="String" MaxLength="65535" Unicode="false" FixedLength="false" />
+    <Property Name="KetCuti" Type="String" MaxLength="65535" Unicode="false" FixedLength="false" />
+    <Property Name="KetSakit" Type="String" MaxLength="65535" Unicode="false" FixedLength="false" />
+    <Property Name="KetIjin" Type="String" MaxLength="65535" Unicode="false" FixedLength="false" />
+    <Property Name="KetAlpa" Type="String" MaxLength="65535" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vallsup">
+    <Key>
+      <PropertyRef Name="SUpID" />
+      <PropertyRef Name="Nama" />
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="TableName" />
+      <PropertyRef Name="CustTypeID" />
+      <PropertyRef Name="botol" />
+      <PropertyRef Name="expedisi" />
+      <PropertyRef Name="SALES" />
+    </Key>
+    <Property Name="SUpID" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="Nama" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="TableName" Type="String" Nullable="false" MaxLength="6" Unicode="false" FixedLength="false" />
+    <Property Name="CustTypeID" Type="Int64" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="botol" Type="Int64" Nullable="false" />
+    <Property Name="expedisi" Type="Int64" Nullable="false" />
+    <Property Name="SALES" Type="Int64" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vborongan">
+    <Key>
+      <PropertyRef Name="Boronganid" />
+      <PropertyRef Name="tipeborongan" />
+      <PropertyRef Name="HargaB" />
+      <PropertyRef Name="hasilborongan" />
+      <PropertyRef Name="NilaiHasil" />
+      <PropertyRef Name="jumlahorang" />
+      <PropertyRef Name="tanggal" />
+      <PropertyRef Name="MulaiBorongan" />
+      <PropertyRef Name="SelesaiBorongan" />
+      <PropertyRef Name="pecah" />
+      <PropertyRef Name="Nopeti" />
+    </Key>
+    <Property Name="Boronganid" Type="Int32" Nullable="false" />
+    <Property Name="tipeborongan" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="HargaB" Type="Decimal" Nullable="false" />
+    <Property Name="hasilborongan" Type="Decimal" Nullable="false" />
+    <Property Name="NilaiHasil" Type="Decimal" Nullable="false" />
+    <Property Name="jumlahorang" Type="Int64" Nullable="false" />
+    <Property Name="Nama" Type="String" MaxLength="65535" Unicode="false" FixedLength="false" />
+    <Property Name="tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="MulaiBorongan" Type="Time" Nullable="false" />
+    <Property Name="SelesaiBorongan" Type="Time" Nullable="false" />
+    <Property Name="pecah" Type="Int32" Nullable="false" />
+    <Property Name="Nopeti" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vboronganall">
+    <Key>
+      <PropertyRef Name="HasilBorongan" />
+      <PropertyRef Name="jumlahorang" />
+      <PropertyRef Name="tipeborongan" />
+      <PropertyRef Name="tanggal" />
+      <PropertyRef Name="boronganid" />
+      <PropertyRef Name="NoPeti" />
+      <PropertyRef Name="mulaiborongan" />
+      <PropertyRef Name="selesaiborongan" />
+    </Key>
+    <Property Name="memberid" Type="Int32" />
+    <Property Name="Name" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="HasilBorongan" Type="Decimal" Nullable="false" />
+    <Property Name="jumlahorang" Type="SByte" Nullable="false" />
+    <Property Name="tipeborongan" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="GajiPerJam" Type="Decimal" />
+    <Property Name="timestart" Type="Time" />
+    <Property Name="timeend" Type="Time" />
+    <Property Name="tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="boronganid" Type="Int32" Nullable="false" />
+    <Property Name="NoPeti" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="GMID" Type="Int32" />
+    <Property Name="mulaiborongan" Type="Time" Nullable="false" />
+    <Property Name="selesaiborongan" Type="Time" Nullable="false" />
+    <Property Name="MulaiHitung" Type="Time" />
+    <Property Name="SelesaiHitung" Type="Time" />
+    <Property Name="Jam" Type="Decimal" />
+    <Property Name="Hari" Type="String" MaxLength="64" Unicode="false" FixedLength="false" />
+    <Property Name="dayname" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vborongannew">
+    <Key>
+      <PropertyRef Name="Boronganid" />
+      <PropertyRef Name="tipeborongan" />
+      <PropertyRef Name="HargaB" />
+      <PropertyRef Name="hasilborongan" />
+      <PropertyRef Name="NilaiHasil" />
+      <PropertyRef Name="jumlahorang" />
+      <PropertyRef Name="tanggal" />
+      <PropertyRef Name="MulaiBorongan" />
+      <PropertyRef Name="SelesaiBorongan" />
+      <PropertyRef Name="pecah" />
+      <PropertyRef Name="Nopeti" />
+    </Key>
+    <Property Name="Boronganid" Type="Int32" Nullable="false" />
+    <Property Name="tipeborongan" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="HargaB" Type="Decimal" Nullable="false" />
+    <Property Name="hasilborongan" Type="Decimal" Nullable="false" />
+    <Property Name="NilaiHasil" Type="Decimal" Nullable="false" />
+    <Property Name="jumlahorang" Type="Int64" Nullable="false" />
+    <Property Name="Nama" Type="String" MaxLength="65535" Unicode="false" FixedLength="false" />
+    <Property Name="tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="MulaiBorongan" Type="Time" Nullable="false" />
+    <Property Name="SelesaiBorongan" Type="Time" Nullable="false" />
+    <Property Name="pecah" Type="Int32" Nullable="false" />
+    <Property Name="Nopeti" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vbotolkotor">
+    <Key>
+      <PropertyRef Name="LogID" />
+    </Key>
+    <Property Name="Tanggal" Type="DateTime" />
+    <Property Name="NOSJ" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="LogID" Type="Int64" Nullable="false" />
+    <Property Name="category" Type="Int64" />
+    <Property Name="CustNAME" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="ProductName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="K100" Type="Decimal" />
+    <Property Name="K99" Type="Decimal" />
+    <Property Name="K98" Type="Decimal" />
+    <Property Name="K16" Type="Decimal" />
+    <Property Name="BTL" Type="Decimal" />
+    <Property Name="Pecah" Type="Decimal" />
+    <Property Name="Sumbing" Type="Decimal" />
+  </EntityType>
+  <EntityType Name="vpengisian">
+    <Key>
+      <PropertyRef Name="Kota_" />
+      <PropertyRef Name="Sopir_" />
+      <PropertyRef Name="Nopolis" />
+      <PropertyRef Name="KM" />
+      <PropertyRef Name="Biaya" />
+      <PropertyRef Name="Ltr" />
+      <PropertyRef Name="Tanggal" />
+    </Key>
+    <Property Name="Kota_" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Sopir_" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Nopolis" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Tipe" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="KM" Type="Decimal" Nullable="false" />
+    <Property Name="TempatIsi" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Biaya" Type="Decimal" Nullable="false" />
+    <Property Name="Ltr" Type="Decimal" Nullable="false" />
+    <Property Name="SuratJalan" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="Tanggal_" Type="DateTime" />
+    <Property Name="Jam_" Type="Time" />
+    <Property Name="Periode" Type="String" MaxLength="14" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vproductbase">
+    <Key>
+      <PropertyRef Name="baseid" />
+      <PropertyRef Name="parentid" />
+      <PropertyRef Name="tipeid" />
+      <PropertyRef Name="productid" />
+      <PropertyRef Name="Description" />
+      <PropertyRef Name="ProdShort" />
+      <PropertyRef Name="custtypeid" />
+      <PropertyRef Name="unitid" />
+      <PropertyRef Name="UnitName" />
+      <PropertyRef Name="Short" />
+      <PropertyRef Name="ConvRate" />
+      <PropertyRef Name="price" />
+      <PropertyRef Name="Sellable" />
+      <PropertyRef Name="Goods" />
+      <PropertyRef Name="Others" />
+      <PropertyRef Name="Updatable" />
+      <PropertyRef Name="Borongan" />
+      <PropertyRef Name="Active" />
+      <PropertyRef Name="ByProduct" />
+      <PropertyRef Name="ProdName" />
+      <PropertyRef Name="ProductLong" />
+    </Key>
+    <Property Name="baseid" Type="Int32" Nullable="false" />
+    <Property Name="parentid" Type="Int32" Nullable="false" />
+    <Property Name="tipeid" Type="Int32" Nullable="false" />
+    <Property Name="tipenama" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="systemonly" Type="Boolean" />
+    <Property Name="productid" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="ProdShort" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="custtypeid" Type="Int32" Nullable="false" />
+    <Property Name="unitid" Type="Int32" Nullable="false" />
+    <Property Name="UnitName" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Short" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="ConvRate" Type="Decimal" Nullable="false" />
+    <Property Name="price" Type="Decimal" Nullable="false" />
+    <Property Name="Keterangan" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Sellable" Type="Boolean" Nullable="false" />
+    <Property Name="Goods" Type="Boolean" Nullable="false" />
+    <Property Name="Others" Type="Boolean" Nullable="false" />
+    <Property Name="Updatable" Type="Boolean" Nullable="false" />
+    <Property Name="Borongan" Type="Boolean" Nullable="false" />
+    <Property Name="HargaB" Type="Decimal" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <Property Name="ByProduct" Type="Int32" Nullable="false" />
+    <Property Name="ProdName" Type="String" Nullable="false" MaxLength="113" Unicode="false" FixedLength="false" />
+    <Property Name="ProductLong" Type="String" Nullable="false" MaxLength="213" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vproductprice">
+    <Key>
+      <PropertyRef Name="baseid" />
+      <PropertyRef Name="productname" />
+      <PropertyRef Name="productshort" />
+      <PropertyRef Name="unitname" />
+      <PropertyRef Name="unitshort" />
+      <PropertyRef Name="nama" />
+      <PropertyRef Name="price" />
+      <PropertyRef Name="kotaid" />
+      <PropertyRef Name="zone" />
+      <PropertyRef Name="tambahan" />
+      <PropertyRef Name="active" />
+      <PropertyRef Name="Paket" />
+      <PropertyRef Name="unitid" />
+    </Key>
+    <Property Name="baseid" Type="Int32" Nullable="false" />
+    <Property Name="productname" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="productshort" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="unitname" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="unitshort" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="nama" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="price" Type="Decimal" Nullable="false" />
+    <Property Name="kotaid" Type="Int32" Nullable="false" />
+    <Property Name="zone" Type="Int16" Nullable="false" />
+    <Property Name="tambahan" Type="Decimal" Nullable="false" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="Paket" Type="Int32" Nullable="false" />
+    <Property Name="unitid" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vrinciangaji">
+    <Key>
+      <PropertyRef Name="rinciangajiid" />
+      <PropertyRef Name="MemberID" />
+      <PropertyRef Name="GID" />
+      <PropertyRef Name="tipepembayaranid" />
+      <PropertyRef Name="tanggal" />
+      <PropertyRef Name="tipeid" />
+      <PropertyRef Name="unit" />
+      <PropertyRef Name="keterangan" />
+      <PropertyRef Name="CalculateID" />
+      <PropertyRef Name="modifiedby" />
+      <PropertyRef Name="created" />
+      <PropertyRef Name="modified" />
+      <PropertyRef Name="createdby" />
+    </Key>
+    <Property Name="rinciangajiid" Type="Int32" Nullable="false" />
+    <Property Name="MemberID" Type="Int32" Nullable="false" />
+    <Property Name="GID" Type="Int32" Nullable="false" />
+    <Property Name="tipepembayaranid" Type="Int32" Nullable="false" />
+    <Property Name="tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="tipeid" Type="Int32" Nullable="false" />
+    <Property Name="unit" Type="Single" Nullable="false" />
+    <Property Name="unitvalue" Type="Decimal" />
+    <Property Name="keterangan" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="templateid" Type="Int32" />
+    <Property Name="CalculateID" Type="Boolean" Nullable="false" />
+    <Property Name="modifiedby" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="created" Type="DateTime" Nullable="false" />
+    <Property Name="modified" Type="DateTime" Nullable="false" />
+    <Property Name="createdby" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vrinciangajiabsen">
+    <Key>
+      <PropertyRef Name="memberid" />
+      <PropertyRef Name="Unit" />
+      <PropertyRef Name="rinciangajiid" />
+      <PropertyRef Name="GID" />
+      <PropertyRef Name="tipepembayaranid" />
+      <PropertyRef Name="Keterangan" />
+    </Key>
+    <Property Name="gender" Type="String" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="sopir" Type="Boolean" />
+    <Property Name="kernet" Type="Boolean" />
+    <Property Name="memberid" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Unit" Type="Single" Nullable="false" />
+    <Property Name="rinciangajiid" Type="Int32" Nullable="false" />
+    <Property Name="tipeid" Type="Int32" />
+    <Property Name="UnitValue" Type="Decimal" />
+    <Property Name="GID" Type="Int32" Nullable="false" />
+    <Property Name="tipepembayaranid" Type="Int32" Nullable="false" />
+    <Property Name="Keterangan" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="nama" Type="String" MaxLength="65535" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vsaldocuti">
+    <Key>
+      <PropertyRef Name="MemberID" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="Tahun" />
+      <PropertyRef Name="Saldo" />
+      <PropertyRef Name="Terpakai" />
+      <PropertyRef Name="CutiBersama" />
+      <PropertyRef Name="MasukKerja" />
+      <PropertyRef Name="Active" />
+    </Key>
+    <Property Name="MemberID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Tahun" Type="Int16" Nullable="false" />
+    <Property Name="Saldo" Type="Int16" Nullable="false" />
+    <Property Name="Terpakai" Type="Int16" Nullable="false" />
+    <Property Name="CutiBersama" Type="Int16" Nullable="false" />
+    <Property Name="MasukKerja" Type="DateTime" Nullable="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vuj">
+    <Key>
+      <PropertyRef Name="tanggal" />
+      <PropertyRef Name="LogID" />
+      <PropertyRef Name="KotaID" />
+      <PropertyRef Name="SalesID" />
+      <PropertyRef Name="printed" />
+    </Key>
+    <Property Name="tanggal" Type="DateTime" Nullable="false" />
+    <Property Name="NoSJ" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="LogID" Type="Int64" Nullable="false" />
+    <Property Name="KotaID" Type="Int32" Nullable="false" />
+    <Property Name="Tujuan" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Sopirid" Type="Int32" />
+    <Property Name="SopirName" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="MobilID" Type="Int32" />
+    <Property Name="MobilName" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="SalesID" Type="Int32" Nullable="false" />
+    <Property Name="SalesName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="KernetName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="printed" Type="Boolean" Nullable="false" />
+    <Property Name="UangJalan" Type="Decimal" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,15 @@
+C:\Users\Vina\Documents\Visual Studio 2010\Projects\NB\WindowAttendance\bin\x86\Debug\WindowAttendance.exe.config
+C:\Users\Vina\Documents\Visual Studio 2010\Projects\NB\WindowAttendance\obj\x86\Debug\Interop.zkemkeeper.dll
+C:\Users\Vina\Documents\Visual Studio 2010\Projects\NB\WindowAttendance\obj\x86\Debug\WindowAttendance.vbproj.ResolveComReference.cache
+C:\Users\Vina\Documents\Visual Studio 2010\Projects\NB\WindowAttendance\bin\x86\Debug\WindowAttendance.exe
+C:\Users\Vina\Documents\Visual Studio 2010\Projects\NB\WindowAttendance\bin\x86\Debug\WindowAttendance.pdb
+C:\Users\Vina\Documents\Visual Studio 2010\Projects\NB\WindowAttendance\bin\x86\Debug\WindowAttendance.xml
+C:\Users\Vina\Documents\Visual Studio 2010\Projects\NB\WindowAttendance\bin\x86\Debug\Interop.zkemkeeper.dll
+C:\Users\Vina\Documents\Visual Studio 2010\Projects\NB\WindowAttendance\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Vina\Documents\Visual Studio 2010\Projects\NB\WindowAttendance\obj\x86\Debug\Attendance.frmMain.resources
+C:\Users\Vina\Documents\Visual Studio 2010\Projects\NB\WindowAttendance\obj\x86\Debug\Attendance.Resources.resources
+C:\Users\Vina\Documents\Visual Studio 2010\Projects\NB\WindowAttendance\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Vina\Documents\Visual Studio 2010\Projects\NB\WindowAttendance\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Vina\Documents\Visual Studio 2010\Projects\NB\WindowAttendance\obj\x86\Debug\WindowAttendance.exe
+C:\Users\Vina\Documents\Visual Studio 2010\Projects\NB\WindowAttendance\obj\x86\Debug\WindowAttendance.xml
+C:\Users\Vina\Documents\Visual Studio 2010\Projects\NB\WindowAttendance\obj\x86\Debug\WindowAttendance.pdb

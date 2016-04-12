@@ -1,0 +1,12 @@
+C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\bin\Release\DataModel.dll.config
+C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\bin\Release\DataModel.dll
+C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\bin\Release\DataModel.pdb
+C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\bin\Release\EntityFramework.dll
+C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\bin\Release\MySql.Data.dll
+C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\bin\Release\mysql.data.entity.EF6.dll
+C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\bin\Release\EntityFramework.xml
+C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\obj\Release\DataModel.csprojResolveAssemblyReference.cache
+C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\obj\Release\DataModel.dll
+C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\obj\Release\DataModel.pdb

@@ -1,0 +1,617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A0F1910F-5405-4DEF-953D-F755359FF9EB}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NB</RootNamespace>
+    <AssemblyName>lihatgaji</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls, Version=2015.3.1104.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2015.3.1104.40\Telerik.WinControls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.GridView, Version=2015.3.1104.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2015.3.1104.40\Telerik.WinControls.GridView.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadDock, Version=2015.3.1104.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2015.3.1104.40\Telerik.WinControls.RadDock.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.UI, Version=2015.3.1104.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2015.3.1104.40\Telerik.WinControls.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TelerikCommon, Version=2015.3.1104.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2015.3.1104.40\TelerikCommon.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Reporting, Version=9.2.15.1105, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+      <Private>True</Private>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Gaji\Bulanan\rptGajiOther.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\Bulanan\rptGajiOther.Designer.cs">
+      <DependentUpon>rptGajiOther.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gaji\Bulanan\rptGajiSummaryOther.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\Bulanan\rptGajiSummaryOther.Designer.cs">
+      <DependentUpon>rptGajiSummaryOther.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gaji\Bulanan\rptGajiTotalOther.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\Bulanan\rptGajiTotalOther.Designer.cs">
+      <DependentUpon>rptGajiTotalOther.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gaji\Komisi\rptGajiKomisi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\Komisi\rptGajiKomisi.Designer.cs">
+      <DependentUpon>rptGajiKomisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gaji\Komisi\rptGajiSummaryKomisi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\Komisi\rptGajiSummaryKomisi.Designer.cs">
+      <DependentUpon>rptGajiSummaryKomisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gaji\Komisi\rptGajiTotalKomisi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\Komisi\rptGajiTotalKomisi.Designer.cs">
+      <DependentUpon>rptGajiTotalKomisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gaji\Staff\rptGajiStaff.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\Staff\rptGajiStaff.Designer.cs">
+      <DependentUpon>rptGajiStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gaji\Staff\rptGajiSummaryStaff.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\Staff\rptGajiSummaryStaff.Designer.cs">
+      <DependentUpon>rptGajiSummaryStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gaji\Staff\rptGajiTotalStaff.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\Staff\rptGajiTotalStaff.Designer.cs">
+      <DependentUpon>rptGajiTotalStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gaji\THR\rptGajiTHRNama.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\THR\rptGajiTHRNama.Designer.cs">
+      <DependentUpon>rptGajiTHRNama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gaji\THR\rptGajiTHRTotal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\THR\rptGajiTHRTotal.Designer.cs">
+      <DependentUpon>rptGajiTHRTotal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gaji\THR\rptGajiTHRSummary.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\THR\rptGajiTHRSummary.Designer.cs">
+      <DependentUpon>rptGajiTHRSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gaji\THR\rptGajiTHR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\THR\rptGajiTHR.Designer.cs">
+      <DependentUpon>rptGajiTHR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gaji\Mingguan\rptGajiMingguan.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\Mingguan\rptGajiMingguan.Designer.cs">
+      <DependentUpon>rptGajiMingguan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gaji\Mingguan\rptGajiMingguanNama.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\Mingguan\rptGajiMingguanNama.Designer.cs">
+      <DependentUpon>rptGajiMingguanNama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gaji\Sales\rptKomisiSales.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\Sales\rptKomisiSales.Designer.cs">
+      <DependentUpon>rptKomisiSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gaji\Mingguan\rptKasBonNew.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\Mingguan\rptKasBonNew.Designer.cs">
+      <DependentUpon>rptKasBonNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptBBM.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptBBM.Designer.cs">
+      <DependentUpon>rptBBM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptReturnSalesMonth.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptReturnSalesMonth.Designer.cs">
+      <DependentUpon>rptReturnSalesMonth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptStock.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptStock.Designer.cs">
+      <DependentUpon>rptStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gaji\Res\rptResBulananSummary.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\Res\rptResBulananSummary.Designer.cs">
+      <DependentUpon>rptResBulananSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gaji\Res\rptResSopir.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\Res\rptResSopir.Designer.cs">
+      <DependentUpon>rptResSopir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptTagihan.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptTagihan.Designer.cs">
+      <DependentUpon>rptTagihan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptTotalBarangOther.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptTotalBarangOther.Designer.cs">
+      <DependentUpon>rptTotalBarangOther.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sinarekDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sinarekDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UJ\rptLaporanUB.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UJ\rptLaporanUB.Designer.cs">
+      <DependentUpon>rptLaporanUB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UJ\rptLaporanUJ.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UJ\rptLaporanUJ.Designer.cs">
+      <DependentUpon>rptLaporanUJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptBotolKotor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptBotolKotor.Designer.cs">
+      <DependentUpon>rptBotolKotor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptPenjualanSalesMonth.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptPenjualanSalesMonth.Designer.cs">
+      <DependentUpon>rptPenjualanSalesMonth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gaji\Res\rptResBulanan.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\Res\rptResBulanan.Designer.cs">
+      <DependentUpon>rptResBulanan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptTotalBarangNEW.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptTotalBarangNEW.Designer.cs">
+      <DependentUpon>rptTotalBarangNEW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptTotalBarangSJNEW.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptTotalBarangSJNEW.Designer.cs">
+      <DependentUpon>rptTotalBarangSJNEW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PenjualanSales\rptBiayaSales.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PenjualanSales\rptBiayaSales.Designer.cs">
+      <DependentUpon>rptBiayaSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PenjualanSales\rptLaporanPenjSales.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PenjualanSales\rptLaporanPenjSales.Designer.cs">
+      <DependentUpon>rptLaporanPenjSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PenjualanSales\rptPenjualanSales.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PenjualanSales\rptPenjualanSales.Designer.cs">
+      <DependentUpon>rptPenjualanSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PenjualanSales\rptPerhitunganSJSales.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PenjualanSales\rptPerhitunganSJSales.Designer.cs">
+      <DependentUpon>rptPerhitunganSJSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptTotalBarangAll.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptTotalBarangAll.Designer.cs">
+      <DependentUpon>rptTotalBarangAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptTotalBarangSJ.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptTotalBarangSJ.Designer.cs">
+      <DependentUpon>rptTotalBarangSJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\rptHargaBarang.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventory\rptHargaBarang.Designer.cs">
+      <DependentUpon>rptHargaBarang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Penjualan\rptBiaya.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Penjualan\rptBiaya.Designer.cs">
+      <DependentUpon>rptBiaya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Penjualan\rptDetailSJ.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Penjualan\rptDetailSJ.Designer.cs">
+      <DependentUpon>rptDetailSJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Penjualan\rptLaporanPenj.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Penjualan\rptLaporanPenj.Designer.cs">
+      <DependentUpon>rptLaporanPenj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Penjualan\rptPenjualan.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Penjualan\rptPenjualan.Designer.cs">
+      <DependentUpon>rptPenjualan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Penjualan\rptPerhitunganSJ.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Penjualan\rptPerhitunganSJ.Designer.cs">
+      <DependentUpon>rptPerhitunganSJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\rptTM.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventory\rptTM.Designer.cs">
+      <DependentUpon>rptTM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\rptSJ.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventory\rptSJ.Designer.cs">
+      <DependentUpon>rptSJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\rptAbsenOther.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\rptAbsenOther.Designer.cs">
+      <DependentUpon>rptAbsenOther.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\rptBuruhList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\rptBuruhList.Designer.cs">
+      <DependentUpon>rptBuruhList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gaji\Mingguan\rptGajiSummary.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\Mingguan\rptGajiSummary.Designer.cs">
+      <DependentUpon>rptGajiSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gaji\Mingguan\rptGajiTotal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\Mingguan\rptGajiTotal.Designer.cs">
+      <DependentUpon>rptGajiTotal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Gaji\Mingguan\rptKasBon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gaji\Mingguan\rptKasBon.Designer.cs">
+      <DependentUpon>rptKasBon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\rptKehadiran.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\rptKehadiran.Designer.cs">
+      <DependentUpon>rptKehadiran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptTotalBarang.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptTotalBarang.Designer.cs">
+      <DependentUpon>rptTotalBarang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UJ\rptUJ.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UJ\rptUJ.Designer.cs">
+      <DependentUpon>rptUJ.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Gaji\Bulanan\rptGajiOther.resx">
+      <DependentUpon>rptGajiOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gaji\Bulanan\rptGajiSummaryOther.resx">
+      <DependentUpon>rptGajiSummaryOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gaji\Bulanan\rptGajiTotalOther.resx">
+      <DependentUpon>rptGajiTotalOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gaji\Komisi\rptGajiKomisi.resx">
+      <DependentUpon>rptGajiKomisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gaji\Komisi\rptGajiSummaryKomisi.resx">
+      <DependentUpon>rptGajiSummaryKomisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gaji\Komisi\rptGajiTotalKomisi.resx">
+      <DependentUpon>rptGajiTotalKomisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gaji\Staff\rptGajiStaff.resx">
+      <DependentUpon>rptGajiStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gaji\Staff\rptGajiSummaryStaff.resx">
+      <DependentUpon>rptGajiSummaryStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gaji\Staff\rptGajiTotalStaff.resx">
+      <DependentUpon>rptGajiTotalStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gaji\THR\rptGajiTHRNama.resx">
+      <DependentUpon>rptGajiTHRNama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gaji\THR\rptGajiTHRTotal.resx">
+      <DependentUpon>rptGajiTHRTotal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gaji\THR\rptGajiTHRSummary.resx">
+      <DependentUpon>rptGajiTHRSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gaji\THR\rptGajiTHR.resx">
+      <DependentUpon>rptGajiTHR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gaji\Mingguan\rptGajiMingguan.resx">
+      <DependentUpon>rptGajiMingguan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gaji\Mingguan\rptGajiMingguanNama.resx">
+      <DependentUpon>rptGajiMingguanNama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gaji\Sales\rptKomisiSales.resx">
+      <DependentUpon>rptKomisiSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gaji\Mingguan\rptKasBonNew.resx">
+      <DependentUpon>rptKasBonNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="rptBBM.resx">
+      <DependentUpon>rptBBM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptReturnSalesMonth.resx">
+      <DependentUpon>rptReturnSalesMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptStock.resx">
+      <DependentUpon>rptStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gaji\Res\rptResBulananSummary.resx">
+      <DependentUpon>rptResBulananSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gaji\Res\rptResSopir.resx">
+      <DependentUpon>rptResSopir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTotalBarangOther.resx">
+      <DependentUpon>rptTotalBarangOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UJ\rptLaporanUB.resx">
+      <DependentUpon>rptLaporanUB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UJ\rptLaporanUJ.resx">
+      <DependentUpon>rptLaporanUJ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptBotolKotor.resx">
+      <DependentUpon>rptBotolKotor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptPenjualanSalesMonth.resx">
+      <DependentUpon>rptPenjualanSalesMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gaji\Res\rptResBulanan.resx">
+      <DependentUpon>rptResBulanan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTotalBarangNEW.resx">
+      <DependentUpon>rptTotalBarangNEW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTotalBarangSJNEW.resx">
+      <DependentUpon>rptTotalBarangSJNEW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PenjualanSales\rptBiayaSales.resx">
+      <DependentUpon>rptBiayaSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PenjualanSales\rptLaporanPenjSales.resx">
+      <DependentUpon>rptLaporanPenjSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PenjualanSales\rptPenjualanSales.resx">
+      <DependentUpon>rptPenjualanSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PenjualanSales\rptPerhitunganSJSales.resx">
+      <DependentUpon>rptPerhitunganSJSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTotalBarangAll.resx">
+      <DependentUpon>rptTotalBarangAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTotalBarangSJ.resx">
+      <DependentUpon>rptTotalBarangSJ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\rptHargaBarang.resx">
+      <DependentUpon>rptHargaBarang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Penjualan\rptBiaya.resx">
+      <DependentUpon>rptBiaya.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Penjualan\rptPerhitunganSJ.resx">
+      <DependentUpon>rptPerhitunganSJ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Penjualan\rptDetailSJ.resx">
+      <DependentUpon>rptDetailSJ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Penjualan\rptLaporanPenj.resx">
+      <DependentUpon>rptLaporanPenj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Penjualan\rptPenjualan.resx">
+      <DependentUpon>rptPenjualan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\rptTM.resx">
+      <DependentUpon>rptTM.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\rptSJ.resx">
+      <DependentUpon>rptSJ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\rptAbsenOther.resx">
+      <DependentUpon>rptAbsenOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\rptBuruhList.resx">
+      <DependentUpon>rptBuruhList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gaji\Mingguan\rptGajiSummary.resx">
+      <DependentUpon>rptGajiSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gaji\Mingguan\rptGajiTotal.resx">
+      <DependentUpon>rptGajiTotal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Gaji\Mingguan\rptKasBon.resx">
+      <DependentUpon>rptKasBon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\rptKehadiran.resx">
+      <DependentUpon>rptKehadiran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTotalBarang.resx">
+      <DependentUpon>rptTotalBarang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UJ\rptUJ.resx">
+      <DependentUpon>rptUJ.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="sinarekDataSet.xsc">
+      <DependentUpon>sinarekDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="sinarekDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sinarekDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sinarekDataSet.xss">
+      <DependentUpon>sinarekDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

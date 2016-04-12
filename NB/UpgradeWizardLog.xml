@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\NB.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\app.config" />
+  <event action="Analyze" type="Success" name="frmBotolKotor.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Botol\frmBotolKotor.resx" />
+  <event action="Analyze" type="Success" name="frmBotolTier.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Botol\frmBotolTier.resx" />
+  <event action="Analyze" type="Success" name="frmInputLB.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Botol\frmInputLB.resx" />
+  <event action="Analyze" type="Success" name="frmTier.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Botol\frmTier.resx" />
+  <event action="Analyze" type="Success" name="frmAddTrans.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\frmAddTrans.resx" />
+  <event action="Analyze" type="Success" name="frmBotolTrans.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\frmBotolTrans.resx" />
+  <event action="Analyze" type="Success" name="frmLogin.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\frmLogin.resx" />
+  <event action="Analyze" type="Success" name="frmMain.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\frmMain.resx" />
+  <event action="Analyze" type="Success" name="frmNaikBarang.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\frmNaikBarang.resx" />
+  <event action="Analyze" type="Success" name="frmPreviewSales.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\frmPreviewSales.resx" />
+  <event action="Analyze" type="Success" name="frmSettings.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\frmSettings.resx" />
+  <event action="Analyze" type="Success" name="frmStockManagement.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\frmStockManagement.resx" />
+  <event action="Analyze" type="Success" name="frmAbsenAll.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Gaji\frmAbsenAll.resx" />
+  <event action="Analyze" type="Success" name="frmAddGajiDetail.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Gaji\frmAddGajiDetail.resx" />
+  <event action="Analyze" type="Success" name="frmAddPinjaman.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Gaji\frmAddPinjaman.resx" />
+  <event action="Analyze" type="Success" name="frmBorongan.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Gaji\frmBorongan.resx" />
+  <event action="Analyze" type="Success" name="frmBuruh.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Gaji\frmBuruh.resx" />
+  <event action="Analyze" type="Success" name="frmCheck.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Gaji\frmCheck.resx" />
+  <event action="Analyze" type="Success" name="frmGajiBulanan.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Gaji\frmGajiBulanan.resx" />
+  <event action="Analyze" type="Success" name="frmGajiBulananStaff.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Gaji\frmGajiBulananStaff.resx" />
+  <event action="Analyze" type="Success" name="frmGajiMingguan.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Gaji\frmGajiMingguan.resx" />
+  <event action="Analyze" type="Success" name="frmGajiTemplate.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Gaji\frmGajiTemplate.resx" />
+  <event action="Analyze" type="Success" name="frmInputAbsen.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Gaji\frmInputAbsen.resx" />
+  <event action="Analyze" type="Success" name="frmInputDenda.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Gaji\frmInputDenda.resx" />
+  <event action="Analyze" type="Success" name="frmManageGaji.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Gaji\frmManageGaji.resx" />
+  <event action="Analyze" type="Success" name="frmPinjaman.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Gaji\frmPinjaman.resx" />
+  <event action="Analyze" type="Success" name="frmRes.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Gaji\frmRes.resx" />
+  <event action="Analyze" type="Success" name="frmSaldoCuti.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Gaji\frmSaldoCuti.resx" />
+  <event action="Analyze" type="Success" name="frmSatpam.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Gaji\frmSatpam.resx" />
+  <event action="Analyze" type="Success" name="frmStaff.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Gaji\frmStaff.resx" />
+  <event action="Analyze" type="Success" name="frmAddPelanggan.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmAddPelanggan.resx" />
+  <event action="Analyze" type="Success" name="frmAddProduct.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmAddProduct.resx" />
+  <event action="Analyze" type="Success" name="frmAddProductBase.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmAddProductBase.resx" />
+  <event action="Analyze" type="Success" name="frmAddProductTotal.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmAddProductTotal.resx" />
+  <event action="Analyze" type="Success" name="frmAddStockTotal.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmAddStockTotal.resx" />
+  <event action="Analyze" type="Success" name="frmAddUnit.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmAddUnit.resx" />
+  <event action="Analyze" type="Success" name="frmEditSJ.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmEditSJ.resx" />
+  <event action="Analyze" type="Success" name="frmInputIntern.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmInputIntern.resx" />
+  <event action="Analyze" type="Success" name="frmInputSJ.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmInputSJ.resx" />
+  <event action="Analyze" type="Success" name="frmInputSJC.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmInputSJC.resx" />
+  <event action="Analyze" type="Success" name="frmInputSJCampuran.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmInputSJCampuran.resx" />
+  <event action="Analyze" type="Success" name="frmInputTM.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmInputTM.resx" />
+  <event action="Analyze" type="Success" name="frmInputTMR.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmInputTMR.resx" />
+  <event action="Analyze" type="Success" name="frmInputTMS.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmInputTMS.resx" />
+  <event action="Analyze" type="Success" name="frmKoreksiStock.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmKoreksiStock.resx" />
+  <event action="Analyze" type="Success" name="frmLihatKartu.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmLihatKartu.resx" />
+  <event action="Analyze" type="Success" name="frmLihatKartuL.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmLihatKartuL.resx" />
+  <event action="Analyze" type="Success" name="frmLihatSJ.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmLihatSJ.resx" />
+  <event action="Analyze" type="Success" name="frmLihatSJExtended.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmLihatSJExtended.resx" />
+  <event action="Analyze" type="Success" name="frmLihatStock.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmLihatStock.resx" />
+  <event action="Analyze" type="Success" name="frmLihatTM.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmLihatTM.resx" />
+  <event action="Analyze" type="Success" name="frmLihatTotal.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmLihatTotal.resx" />
+  <event action="Analyze" type="Success" name="frmProductTotal.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Inventory\frmProductTotal.resx" />
+  <event action="Analyze" type="Success" name="frmAccount.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Kasir\frmAccount.resx" />
+  <event action="Analyze" type="Success" name="frmAddPayment.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Kasir\frmAddPayment.resx" />
+  <event action="Analyze" type="Success" name="frmCashier.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Kasir\frmCashier.resx" />
+  <event action="Analyze" type="Success" name="frmInputKas.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Kasir\frmInputKas.resx" />
+  <event action="Analyze" type="Success" name="frmKasBesar.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Kasir\frmKasBesar.resx" />
+  <event action="Analyze" type="Success" name="frmPayable.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Kasir\frmPayable.resx" />
+  <event action="Analyze" type="Success" name="frmReceivable.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Kasir\frmReceivable.resx" />
+  <event action="Analyze" type="Success" name="frmSalesReview.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Laporan\frmSalesReview.resx" />
+  <event action="Analyze" type="Success" name="frmGajiSales.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Manager\frmGajiSales.resx" />
+  <event action="Analyze" type="Success" name="frmKota.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Manager\frmKota.resx" />
+  <event action="Analyze" type="Success" name="frmLihatNR.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Manager\frmLihatNR.resx" />
+  <event action="Analyze" type="Success" name="frmManageBorongan.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Manager\frmManageBorongan.resx" />
+  <event action="Analyze" type="Success" name="frmMobil.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Manager\frmMobil.resx" />
+  <event action="Analyze" type="Success" name="frmPel.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Manager\frmPel.resx" />
+  <event action="Analyze" type="Success" name="frmProduct.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Manager\frmProduct.resx" />
+  <event action="Analyze" type="Success" name="frmSales.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Manager\frmSales.resx" />
+  <event action="Analyze" type="Success" name="frmSalesPerformanceReview.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Manager\frmSalesPerformanceReview.resx" />
+  <event action="Analyze" type="Success" name="frmSup.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Manager\frmSup.resx" />
+  <event action="Analyze" type="Success" name="frmTHR.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Manager\frmTHR.resx" />
+  <event action="Analyze" type="Success" name="frmUnit.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Manager\frmUnit.resx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\packages.config" />
+  <event action="Analyze" type="Success" name="frmInputAmbil.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Penjualan\frmInputAmbil.resx" />
+  <event action="Analyze" type="Success" name="frmInputLP.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Penjualan\frmInputLP.resx" />
+  <event action="Analyze" type="Success" name="frmInputPenjualan.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Penjualan\frmInputPenjualan.resx" />
+  <event action="Analyze" type="Success" name="frmInputUB.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Penjualan\frmInputUB.resx" />
+  <event action="Analyze" type="Success" name="frmInputUJ.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Penjualan\frmInputUJ.resx" />
+  <event action="Analyze" type="Success" name="frmInRcnBiaya.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Penjualan\frmInRcnBiaya.resx" />
+  <event action="Analyze" type="Success" name="frmInRcnPenjualan.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Penjualan\frmInRcnPenjualan.resx" />
+  <event action="Analyze" type="Success" name="frmLihatLP.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Penjualan\frmLihatLP.resx" />
+  <event action="Analyze" type="Success" name="frmUJ.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Penjualan\frmUJ.resx" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="frmHistCustomer.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Rekap\frmHistCustomer.resx" />
+  <event action="Analyze" type="Success" name="frmHistSupplier.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Rekap\frmHistSupplier.resx" />
+  <event action="Analyze" type="Success" name="frmCompanyCal.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Settings\frmCompanyCal.resx" />
+  <event action="Analyze" type="Success" name="frmManageCommision.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Settings\frmManageCommision.resx" />
+  <event action="Analyze" type="Success" name="frmMemberManager.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Settings\frmMemberManager.resx" />
+  <event action="Analyze" type="Success" name="frmProductPrice.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Settings\frmProductPrice.resx" />
+  <event action="Analyze" type="Success" name="frmViewMember.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\Settings\frmViewMember.resx" />
+  <event action="Analyze" type="Success" name="NB" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB\NB.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\lihatgaji.csproj" />
+  <event action="Analyze" type="Success" name="rptAbsenOther.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Admin\rptAbsenOther.resx" />
+  <event action="Analyze" type="Success" name="rptBuruhList.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Admin\rptBuruhList.resx" />
+  <event action="Analyze" type="Success" name="rptKehadiran.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Admin\rptKehadiran.resx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\app.config" />
+  <event action="Analyze" type="Success" name="rptGajiOther.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Bulanan\rptGajiOther.resx" />
+  <event action="Analyze" type="Success" name="rptGajiSummaryOther.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Bulanan\rptGajiSummaryOther.resx" />
+  <event action="Analyze" type="Success" name="rptGajiTotalOther.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Bulanan\rptGajiTotalOther.resx" />
+  <event action="Analyze" type="Success" name="rptGajiKomisi.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Komisi\rptGajiKomisi.resx" />
+  <event action="Analyze" type="Success" name="rptGajiSummaryKomisi.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Komisi\rptGajiSummaryKomisi.resx" />
+  <event action="Analyze" type="Success" name="rptGajiTotalKomisi.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Komisi\rptGajiTotalKomisi.resx" />
+  <event action="Analyze" type="Success" name="rptGajiMingguan.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Mingguan\rptGajiMingguan.resx" />
+  <event action="Analyze" type="Success" name="rptGajiMingguanNama.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Mingguan\rptGajiMingguanNama.resx" />
+  <event action="Analyze" type="Success" name="rptGajiSummary.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Mingguan\rptGajiSummary.resx" />
+  <event action="Analyze" type="Success" name="rptGajiTotal.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Mingguan\rptGajiTotal.resx" />
+  <event action="Analyze" type="Success" name="rptKasBon.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Mingguan\rptKasBon.resx" />
+  <event action="Analyze" type="Success" name="rptKasBonNew.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Mingguan\rptKasBonNew.resx" />
+  <event action="Analyze" type="Success" name="rptResBulanan.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Res\rptResBulanan.resx" />
+  <event action="Analyze" type="Success" name="rptResBulananSummary.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Res\rptResBulananSummary.resx" />
+  <event action="Analyze" type="Success" name="rptResSopir.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Res\rptResSopir.resx" />
+  <event action="Analyze" type="Success" name="rptKomisiSales.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Sales\rptKomisiSales.resx" />
+  <event action="Analyze" type="Success" name="rptGajiStaff.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Staff\rptGajiStaff.resx" />
+  <event action="Analyze" type="Success" name="rptGajiSummaryStaff.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Staff\rptGajiSummaryStaff.resx" />
+  <event action="Analyze" type="Success" name="rptGajiTotalStaff.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Staff\rptGajiTotalStaff.resx" />
+  <event action="Analyze" type="Success" name="rptGajiTHR.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\THR\rptGajiTHR.resx" />
+  <event action="Analyze" type="Success" name="rptGajiTHRNama.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\THR\rptGajiTHRNama.resx" />
+  <event action="Analyze" type="Success" name="rptGajiTHRSummary.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\THR\rptGajiTHRSummary.resx" />
+  <event action="Analyze" type="Success" name="rptGajiTHRTotal.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\THR\rptGajiTHRTotal.resx" />
+  <event action="Analyze" type="Success" name="rptHargaBarang.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Inventory\rptHargaBarang.resx" />
+  <event action="Analyze" type="Success" name="rptSJ.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Inventory\rptSJ.resx" />
+  <event action="Analyze" type="Success" name="rptTM.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Inventory\rptTM.resx" />
+  <event action="Analyze" type="Success" name="rptBiaya.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Penjualan\rptBiaya.resx" />
+  <event action="Analyze" type="Success" name="rptDetailSJ.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Penjualan\rptDetailSJ.resx" />
+  <event action="Analyze" type="Success" name="rptLaporanPenj.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Penjualan\rptLaporanPenj.resx" />
+  <event action="Analyze" type="Success" name="rptPenjualan.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Penjualan\rptPenjualan.resx" />
+  <event action="Analyze" type="Success" name="rptPerhitunganSJ.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Penjualan\rptPerhitunganSJ.resx" />
+  <event action="Analyze" type="Success" name="rptBiayaSales.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\PenjualanSales\rptBiayaSales.resx" />
+  <event action="Analyze" type="Success" name="rptLaporanPenjSales.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\PenjualanSales\rptLaporanPenjSales.resx" />
+  <event action="Analyze" type="Success" name="rptPenjualanSales.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\PenjualanSales\rptPenjualanSales.resx" />
+  <event action="Analyze" type="Success" name="rptPerhitunganSJSales.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\PenjualanSales\rptPerhitunganSJSales.resx" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="rptBBM.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptBBM.resx" />
+  <event action="Analyze" type="Success" name="rptBotolKotor.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptBotolKotor.resx" />
+  <event action="Analyze" type="Success" name="rptPenjualanSalesMonth.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptPenjualanSalesMonth.resx" />
+  <event action="Analyze" type="Success" name="rptReturnSalesMonth.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptReturnSalesMonth.resx" />
+  <event action="Analyze" type="Success" name="rptStock.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptStock.resx" />
+  <event action="Analyze" type="Success" name="rptTotalBarang.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptTotalBarang.resx" />
+  <event action="Analyze" type="Success" name="rptTotalBarangAll.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptTotalBarangAll.resx" />
+  <event action="Analyze" type="Success" name="rptTotalBarangNEW.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptTotalBarangNEW.resx" />
+  <event action="Analyze" type="Success" name="rptTotalBarangOther.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptTotalBarangOther.resx" />
+  <event action="Analyze" type="Success" name="rptTotalBarangSJ.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptTotalBarangSJ.resx" />
+  <event action="Analyze" type="Success" name="rptTotalBarangSJNEW.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptTotalBarangSJNEW.resx" />
+  <event action="Analyze" type="Success" name="rptLaporanUB.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\UJ\rptLaporanUB.resx" />
+  <event action="Analyze" type="Success" name="rptLaporanUJ.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\UJ\rptLaporanUJ.resx" />
+  <event action="Analyze" type="Success" name="rptUJ.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\UJ\rptUJ.resx" />
+  <event action="Analyze" type="Success" name="lihatgaji" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\lihatgaji.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatinventory\lihatinventory.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatinventory\App.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatinventory\App.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatinventory\App.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatinventory\App.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatinventory\App.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatinventory\App.config" />
+  <event action="Analyze" type="Success" name="App.config" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatinventory\App.config" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatinventory\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="rptBarangKeluar.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatinventory\rptBarangKeluar.resx" />
+  <event action="Analyze" type="Success" name="rptBarangKeluarOLD.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatinventory\rptBarangKeluarOLD.resx" />
+  <event action="Analyze" type="Success" name="rptBarangKeluarTabel.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatinventory\rptBarangKeluarTabel.resx" />
+  <event action="Analyze" type="Success" name="rptHargaBarang.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatinventory\rptHargaBarang.resx" />
+  <event action="Analyze" type="Success" name="rptLaporanPenjualan.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatinventory\rptLaporanPenjualan.resx" />
+  <event action="Analyze" type="Success" name="rptPenjualan.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatinventory\rptPenjualan.resx" />
+  <event action="Analyze" type="Success" name="rptSisaBarang.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatinventory\rptSisaBarang.resx" />
+  <event action="Analyze" type="Success" name="rptTotalBarang.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatinventory\rptTotalBarang.resx" />
+  <event action="Analyze" type="Success" name="rptTotalPenjualan.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatinventory\rptTotalPenjualan.resx" />
+  <event action="Analyze" type="Success" name="rptTotalPenjualanSales.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatinventory\rptTotalPenjualanSales.resx" />
+  <event action="Analyze" type="Success" name="lihatinventory" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatinventory\lihatinventory.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\Manager\Manager.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\Manager\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\Manager\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\Manager\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\Manager\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\Manager\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\Manager\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\Manager\app.config" />
+  <event action="Analyze" type="Success" name="frmLogin.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\Manager\frmLogin.resx" />
+  <event action="Analyze" type="Success" name="frmMain.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\Manager\frmMain.resx" />
+  <event action="Analyze" type="Success" name="frmMainAdmin.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\Manager\frmMainAdmin.resx" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\Manager\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="sfrmManageMenu.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\Manager\sfrmManageMenu.resx" />
+  <event action="Analyze" type="Success" name="sfrmManageNewUser.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\Manager\sfrmManageNewUser.resx" />
+  <event action="Analyze" type="Success" name="sfrmManageUser.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\Manager\sfrmManageUser.resx" />
+  <event action="Analyze" type="Success" name="Manager" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\Manager\Manager.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\automated\automated.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\automated\App.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\automated\App.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\automated\App.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\automated\App.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\automated\App.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\automated\App.config" />
+  <event action="Analyze" type="Success" name="App.config" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\automated\App.config" />
+  <event action="Analyze" type="Success" name="automated" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\automated\automated.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatkas\lihatkas.csproj" />
+  <event action="Analyze" type="Success" name="lihatkas" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatkas\lihatkas.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\DataModel.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\App.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\App.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\App.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\App.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\App.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\App.config" />
+  <event action="Analyze" type="Success" name="App.config" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\App.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\packages.config" />
+  <event action="Analyze" type="Success" name="DataModel" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\DataModel\DataModel.csproj" />
+  <event action="Analyze" type="Success" name="NB" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB.sln" />
+  <event action="Upgrade" type="Success" name="Assembly References" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\lihatgaji.csproj" />
+  <event action="Upgrade" type="Success" name="rptAbsenOther.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Admin\rptAbsenOther.resx" />
+  <event action="Upgrade" type="Success" name="rptBuruhList.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Admin\rptBuruhList.resx" />
+  <event action="Upgrade" type="Success" name="rptKehadiran.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Admin\rptKehadiran.resx" />
+  <event action="Upgrade" type="Success" name="rptGajiOther.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Bulanan\rptGajiOther.resx" />
+  <event action="Upgrade" type="Success" name="rptGajiSummaryOther.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Bulanan\rptGajiSummaryOther.resx" />
+  <event action="Upgrade" type="Success" name="rptGajiTotalOther.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Bulanan\rptGajiTotalOther.resx" />
+  <event action="Upgrade" type="Success" name="rptGajiKomisi.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Komisi\rptGajiKomisi.resx" />
+  <event action="Upgrade" type="Success" name="rptGajiSummaryKomisi.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Komisi\rptGajiSummaryKomisi.resx" />
+  <event action="Upgrade" type="Success" name="rptGajiTotalKomisi.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Komisi\rptGajiTotalKomisi.resx" />
+  <event action="Upgrade" type="Success" name="rptGajiMingguan.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Mingguan\rptGajiMingguan.resx" />
+  <event action="Upgrade" type="Success" name="rptGajiMingguanNama.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Mingguan\rptGajiMingguanNama.resx" />
+  <event action="Upgrade" type="Success" name="rptGajiSummary.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Mingguan\rptGajiSummary.resx" />
+  <event action="Upgrade" type="Success" name="rptGajiTotal.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Mingguan\rptGajiTotal.resx" />
+  <event action="Upgrade" type="Success" name="rptKasBon.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Mingguan\rptKasBon.resx" />
+  <event action="Upgrade" type="Success" name="rptKasBonNew.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Mingguan\rptKasBonNew.resx" />
+  <event action="Upgrade" type="Success" name="rptResBulanan.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Res\rptResBulanan.resx" />
+  <event action="Upgrade" type="Success" name="rptResBulananSummary.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Res\rptResBulananSummary.resx" />
+  <event action="Upgrade" type="Success" name="rptResSopir.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Res\rptResSopir.resx" />
+  <event action="Upgrade" type="Success" name="rptKomisiSales.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Sales\rptKomisiSales.resx" />
+  <event action="Upgrade" type="Success" name="rptGajiStaff.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Staff\rptGajiStaff.resx" />
+  <event action="Upgrade" type="Success" name="rptGajiSummaryStaff.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Staff\rptGajiSummaryStaff.resx" />
+  <event action="Upgrade" type="Success" name="rptGajiTotalStaff.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\Staff\rptGajiTotalStaff.resx" />
+  <event action="Upgrade" type="Success" name="rptGajiTHR.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\THR\rptGajiTHR.resx" />
+  <event action="Upgrade" type="Success" name="rptGajiTHRNama.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\THR\rptGajiTHRNama.resx" />
+  <event action="Upgrade" type="Success" name="rptGajiTHRSummary.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\THR\rptGajiTHRSummary.resx" />
+  <event action="Upgrade" type="Success" name="rptGajiTHRTotal.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Gaji\THR\rptGajiTHRTotal.resx" />
+  <event action="Upgrade" type="Success" name="rptHargaBarang.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Inventory\rptHargaBarang.resx" />
+  <event action="Upgrade" type="Success" name="rptSJ.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Inventory\rptSJ.resx" />
+  <event action="Upgrade" type="Success" name="rptTM.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Inventory\rptTM.resx" />
+  <event action="Upgrade" type="Success" name="rptBiaya.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Penjualan\rptBiaya.resx" />
+  <event action="Upgrade" type="Success" name="rptDetailSJ.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Penjualan\rptDetailSJ.resx" />
+  <event action="Upgrade" type="Success" name="rptLaporanPenj.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Penjualan\rptLaporanPenj.resx" />
+  <event action="Upgrade" type="Success" name="rptPenjualan.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Penjualan\rptPenjualan.resx" />
+  <event action="Upgrade" type="Success" name="rptPerhitunganSJ.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\Penjualan\rptPerhitunganSJ.resx" />
+  <event action="Upgrade" type="Success" name="rptBiayaSales.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\PenjualanSales\rptBiayaSales.resx" />
+  <event action="Upgrade" type="Success" name="rptLaporanPenjSales.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\PenjualanSales\rptLaporanPenjSales.resx" />
+  <event action="Upgrade" type="Success" name="rptPenjualanSales.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\PenjualanSales\rptPenjualanSales.resx" />
+  <event action="Upgrade" type="Success" name="rptPerhitunganSJSales.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\PenjualanSales\rptPerhitunganSJSales.resx" />
+  <event action="Upgrade" type="Success" name="rptBBM.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptBBM.resx" />
+  <event action="Upgrade" type="Success" name="rptBotolKotor.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptBotolKotor.resx" />
+  <event action="Upgrade" type="Success" name="rptPenjualanSalesMonth.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptPenjualanSalesMonth.resx" />
+  <event action="Upgrade" type="Success" name="rptReturnSalesMonth.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptReturnSalesMonth.resx" />
+  <event action="Upgrade" type="Success" name="rptStock.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptStock.resx" />
+  <event action="Upgrade" type="Success" name="rptTotalBarang.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptTotalBarang.resx" />
+  <event action="Upgrade" type="Success" name="rptTotalBarangAll.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptTotalBarangAll.resx" />
+  <event action="Upgrade" type="Success" name="rptTotalBarangNEW.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptTotalBarangNEW.resx" />
+  <event action="Upgrade" type="Success" name="rptTotalBarangOther.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptTotalBarangOther.resx" />
+  <event action="Upgrade" type="Success" name="rptTotalBarangSJ.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptTotalBarangSJ.resx" />
+  <event action="Upgrade" type="Success" name="rptTotalBarangSJNEW.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\rptTotalBarangSJNEW.resx" />
+  <event action="Upgrade" type="Success" name="rptLaporanUB.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\UJ\rptLaporanUB.resx" />
+  <event action="Upgrade" type="Success" name="rptLaporanUJ.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\UJ\rptLaporanUJ.resx" />
+  <event action="Upgrade" type="Success" name="rptUJ.resx" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\UJ\rptUJ.resx" />
+  <event action="Upgrade" type="Success" name="lihatgaji" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatgaji\lihatgaji.csproj" />
+  <event action="Upgrade" type="Success" name="NB" path="C:\Users\Vina\Documents\Projects\New Start 2016\NB\NB.sln" />
+</log>

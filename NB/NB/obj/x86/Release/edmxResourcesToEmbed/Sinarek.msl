@@ -1,0 +1,1488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="sinarekModelStoreContainer" CdmEntityContainer="sinarekEntities">
+    <EntitySetMapping Name="absenalls">
+      <EntityTypeMapping TypeName="sinarekModel.absenall">
+        <MappingFragment StoreEntitySet="absenall">
+          <ScalarProperty Name="Absenid" ColumnName="Absenid" />
+          <ScalarProperty Name="memberid" ColumnName="memberid" />
+          <ScalarProperty Name="tanggal" ColumnName="tanggal" />
+          <ScalarProperty Name="tipehadirid" ColumnName="tipehadirid" />
+          <ScalarProperty Name="pagi" ColumnName="pagi" />
+          <ScalarProperty Name="sore" ColumnName="sore" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+          <ScalarProperty Name="keterangan" ColumnName="keterangan" />
+          <ScalarProperty Name="GMID" ColumnName="GMID" />
+          <ScalarProperty Name="GBID" ColumnName="GBID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="accpayments">
+      <EntityTypeMapping TypeName="sinarekModel.accpayment">
+        <MappingFragment StoreEntitySet="accpayment">
+          <ScalarProperty Name="paymentid" ColumnName="paymentid" />
+          <ScalarProperty Name="transID" ColumnName="transID" />
+          <ScalarProperty Name="accID" ColumnName="accID" />
+          <ScalarProperty Name="typeid" ColumnName="typeid" />
+          <ScalarProperty Name="VALUE" ColumnName="VALUE" />
+          <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+          <ScalarProperty Name="proof" ColumnName="proof" />
+          <ScalarProperty Name="Keterangan1" ColumnName="Keterangan1" />
+          <ScalarProperty Name="Keterangan2" ColumnName="Keterangan2" />
+          <ScalarProperty Name="keterangan3" ColumnName="keterangan3" />
+          <ScalarProperty Name="linkid" ColumnName="linkid" />
+          <ScalarProperty Name="used" ColumnName="used" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="acctrans">
+      <EntityTypeMapping TypeName="sinarekModel.acctran">
+        <MappingFragment StoreEntitySet="acctrans">
+          <ScalarProperty Name="transid" ColumnName="transid" />
+          <ScalarProperty Name="accountid" ColumnName="accountid" />
+          <ScalarProperty Name="unit" ColumnName="unit" />
+          <ScalarProperty Name="category" ColumnName="category" />
+          <ScalarProperty Name="tanggal" ColumnName="tanggal" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="adjustment" ColumnName="adjustment" />
+          <ScalarProperty Name="custid" ColumnName="custid" />
+          <ScalarProperty Name="custtypeid" ColumnName="custtypeid" />
+          <ScalarProperty Name="linktype" ColumnName="linktype" />
+          <ScalarProperty Name="linkid" ColumnName="linkid" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="actionlogs">
+      <EntityTypeMapping TypeName="sinarekModel.actionlog">
+        <MappingFragment StoreEntitySet="actionlog">
+          <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+          <ScalarProperty Name="statusid" ColumnName="statusid" />
+          <ScalarProperty Name="actionid" ColumnName="actionid" />
+          <ScalarProperty Name="actionby" ColumnName="actionby" />
+          <ScalarProperty Name="keterangan" ColumnName="keterangan" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="borongans">
+      <EntityTypeMapping TypeName="sinarekModel.borongan">
+        <MappingFragment StoreEntitySet="borongan">
+          <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+          <ScalarProperty Name="MulaiBorongan" ColumnName="MulaiBorongan" />
+          <ScalarProperty Name="SelesaiBorongan" ColumnName="SelesaiBorongan" />
+          <ScalarProperty Name="JumlahOrang" ColumnName="JumlahOrang" />
+          <ScalarProperty Name="TipeBorongan" ColumnName="TipeBorongan" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="HasilBorongan" ColumnName="HasilBorongan" />
+          <ScalarProperty Name="Pecah" ColumnName="Pecah" />
+          <ScalarProperty Name="NoPeti" ColumnName="NoPeti" />
+          <ScalarProperty Name="BoronganID" ColumnName="BoronganID" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="User" ColumnName="User" />
+          <ScalarProperty Name="BoronganPerJam" ColumnName="BoronganPerJam" />
+          <ScalarProperty Name="LamaBorongan" ColumnName="LamaBorongan" />
+          <ScalarProperty Name="HargaB" ColumnName="HargaB" />
+          <ScalarProperty Name="HargaSatuan" ColumnName="HargaSatuan" />
+          <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="boronganburuhs">
+      <EntityTypeMapping TypeName="sinarekModel.boronganburuh">
+        <MappingFragment StoreEntitySet="boronganburuh">
+          <ScalarProperty Name="BuruhID" ColumnName="BuruhID" />
+          <ScalarProperty Name="BoronganID" ColumnName="BoronganID" />
+          <ScalarProperty Name="BoronganBuruhID" ColumnName="BoronganBuruhID" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="botollogs">
+      <EntityTypeMapping TypeName="sinarekModel.botollog">
+        <MappingFragment StoreEntitySet="botollog">
+          <ScalarProperty Name="BLogID" ColumnName="BLogID" />
+          <ScalarProperty Name="PelID" ColumnName="PelID" />
+          <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+          <ScalarProperty Name="TipeTransID" ColumnName="TipeTransID" />
+          <ScalarProperty Name="TipeTrans" ColumnName="TipeTrans" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="SourceDet" ColumnName="SourceDet" />
+          <ScalarProperty Name="USer" ColumnName="USer" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="comissions">
+      <EntityTypeMapping TypeName="sinarekModel.comission">
+        <MappingFragment StoreEntitySet="comission">
+          <ScalarProperty Name="CommisionID" ColumnName="CommisionID" />
+          <ScalarProperty Name="BaseID" ColumnName="BaseID" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Cash" ColumnName="Cash" />
+          <ScalarProperty Name="DalamKota" ColumnName="DalamKota" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="companies">
+      <EntityTypeMapping TypeName="sinarekModel.company">
+        <MappingFragment StoreEntitySet="company">
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="custtypes">
+      <EntityTypeMapping TypeName="sinarekModel.custtype">
+        <MappingFragment StoreEntitySet="custtype">
+          <ScalarProperty Name="CustTypeID" ColumnName="CustTypeID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Init" ColumnName="Init" />
+          <ScalarProperty Name="SystemOnly" ColumnName="SystemOnly" />
+          <ScalarProperty Name="Storage" ColumnName="Storage" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="formulae">
+      <EntityTypeMapping TypeName="sinarekModel.formula">
+        <MappingFragment StoreEntitySet="formula">
+          <ScalarProperty Name="FormulaID" ColumnName="FormulaID" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="gajibulanans">
+      <EntityTypeMapping TypeName="sinarekModel.gajibulanan">
+        <MappingFragment StoreEntitySet="gajibulanan">
+          <ScalarProperty Name="GBID" ColumnName="GBID" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="WorkDays" ColumnName="WorkDays" />
+          <ScalarProperty Name="Days" ColumnName="Days" />
+          <ScalarProperty Name="Holiday" ColumnName="Holiday" />
+          <ScalarProperty Name="HolidaySun" ColumnName="HolidaySun" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="PrintedStaff" ColumnName="PrintedStaff" />
+          <ScalarProperty Name="PrintedStaffBy" ColumnName="PrintedStaffBy" />
+          <ScalarProperty Name="PrintedSales" ColumnName="PrintedSales" />
+          <ScalarProperty Name="PrintedSalesBy" ColumnName="PrintedSalesBy" />
+          <ScalarProperty Name="PrintedComission" ColumnName="PrintedComission" />
+          <ScalarProperty Name="PrintedComissionBy" ColumnName="PrintedComissionBy" />
+          <ScalarProperty Name="PrintedOther" ColumnName="PrintedOther" />
+          <ScalarProperty Name="PrintedOtherBy" ColumnName="PrintedOtherBy" />
+          <ScalarProperty Name="TotalStaff" ColumnName="TotalStaff" />
+          <ScalarProperty Name="TotalSales" ColumnName="TotalSales" />
+          <ScalarProperty Name="TotalComission" ColumnName="TotalComission" />
+          <ScalarProperty Name="TotalOther" ColumnName="TotalOther" />
+          <ScalarProperty Name="TotalPaid" ColumnName="TotalPaid" />
+          <ScalarProperty Name="User" ColumnName="User" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="gajimingguans">
+      <EntityTypeMapping TypeName="sinarekModel.gajimingguan">
+        <MappingFragment StoreEntitySet="gajimingguan">
+          <ScalarProperty Name="GMID" ColumnName="GMID" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="WeekEndDate" ColumnName="WeekEndDate" />
+          <ScalarProperty Name="Printed" ColumnName="Printed" />
+          <ScalarProperty Name="PrintedBy" ColumnName="PrintedBy" />
+          <ScalarProperty Name="BoronganStartDate" ColumnName="BoronganStartDate" />
+          <ScalarProperty Name="BoronganEndDate" ColumnName="BoronganEndDate" />
+          <ScalarProperty Name="ResStartDate" ColumnName="ResStartDate" />
+          <ScalarProperty Name="ResEndDate" ColumnName="ResEndDate" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="User" ColumnName="User" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="gajitemplatealls">
+      <EntityTypeMapping TypeName="sinarekModel.gajitemplateall">
+        <MappingFragment StoreEntitySet="gajitemplateall">
+          <ScalarProperty Name="templateid" ColumnName="templateid" />
+          <ScalarProperty Name="memberid" ColumnName="memberid" />
+          <ScalarProperty Name="tipeid" ColumnName="tipeid" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="CalculationID" ColumnName="CalculationID" />
+          <ScalarProperty Name="TipePembayaranID" ColumnName="TipePembayaranID" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="keterangan" ColumnName="keterangan" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="gajitetaps">
+      <EntityTypeMapping TypeName="sinarekModel.gajitetap">
+        <MappingFragment StoreEntitySet="gajitetap">
+          <ScalarProperty Name="BuruhID" ColumnName="BuruhID" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="tipeid" ColumnName="tipeid" />
+          <ScalarProperty Name="unitvalue" ColumnName="unitvalue" />
+          <ScalarProperty Name="keterangan" ColumnName="keterangan" />
+          <ScalarProperty Name="templateid" ColumnName="templateid" />
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+          <ScalarProperty Name="active" ColumnName="active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="genders">
+      <EntityTypeMapping TypeName="sinarekModel.gender">
+        <MappingFragment StoreEntitySet="gender">
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kernets">
+      <EntityTypeMapping TypeName="sinarekModel.kernet">
+        <MappingFragment StoreEntitySet="kernet">
+          <ScalarProperty Name="KernetID" ColumnName="KernetID" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+          <ScalarProperty Name="Short" ColumnName="Short" />
+          <ScalarProperty Name="From" ColumnName="From" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kotas">
+      <EntityTypeMapping TypeName="sinarekModel.kota">
+        <MappingFragment StoreEntitySet="kota">
+          <ScalarProperty Name="KotaID" ColumnName="KotaID" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+          <ScalarProperty Name="Short" ColumnName="Short" />
+          <ScalarProperty Name="Jarak" ColumnName="Jarak" />
+          <ScalarProperty Name="ResSopir" ColumnName="ResSopir" />
+          <ScalarProperty Name="ResSopirBulanan" ColumnName="ResSopirBulanan" />
+          <ScalarProperty Name="ResKernet" ColumnName="ResKernet" />
+          <ScalarProperty Name="Zone" ColumnName="Zone" />
+          <ScalarProperty Name="Tambahan" ColumnName="Tambahan" />
+          <ScalarProperty Name="SystemOnly" ColumnName="SystemOnly" />
+          <ScalarProperty Name="UangJalan" ColumnName="UangJalan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lappens">
+      <EntityTypeMapping TypeName="sinarekModel.lappen">
+        <MappingFragment StoreEntitySet="lappen">
+          <ScalarProperty Name="lappenid" ColumnName="lappenid" />
+          <ScalarProperty Name="tipe" ColumnName="tipe" />
+          <ScalarProperty Name="logid" ColumnName="logid" />
+          <ScalarProperty Name="tanggal" ColumnName="tanggal" />
+          <ScalarProperty Name="enddate" ColumnName="enddate" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+          <ScalarProperty Name="statusid" ColumnName="statusid" />
+          <ScalarProperty Name="printed" ColumnName="printed" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="logdetails">
+      <EntityTypeMapping TypeName="sinarekModel.logdetail">
+        <MappingFragment StoreEntitySet="logdetail">
+          <ScalarProperty Name="Detailid" ColumnName="Detailid" />
+          <ScalarProperty Name="Logid" ColumnName="Logid" />
+          <ScalarProperty Name="BaseID" ColumnName="BaseID" />
+          <ScalarProperty Name="custtypeid" ColumnName="custtypeid" />
+          <ScalarProperty Name="custtypetoid" ColumnName="custtypetoid" />
+          <ScalarProperty Name="Expired" ColumnName="Expired" />
+          <ScalarProperty Name="ExpireDate" ColumnName="ExpireDate" />
+          <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="logothers">
+      <EntityTypeMapping TypeName="sinarekModel.logother">
+        <MappingFragment StoreEntitySet="logother">
+          <ScalarProperty Name="Logid" ColumnName="Logid" />
+          <ScalarProperty Name="LogDetailID" ColumnName="LogDetailID" />
+          <ScalarProperty Name="logpelid" ColumnName="logpelid" />
+          <ScalarProperty Name="lappenid" ColumnName="lappenid" />
+          <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+          <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+          <ScalarProperty Name="Expired" ColumnName="Expired" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="ExpireDate" ColumnName="ExpireDate" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="BaseID" ColumnName="BaseID" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="KotaID" ColumnName="KotaID" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Detail2" ColumnName="Detail2" />
+          <ScalarProperty Name="Detail3" ColumnName="Detail3" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="logpels">
+      <EntityTypeMapping TypeName="sinarekModel.logpel">
+        <MappingFragment StoreEntitySet="logpel">
+          <ScalarProperty Name="LogPelID" ColumnName="LogPelID" />
+          <ScalarProperty Name="PelID" ColumnName="PelID" />
+          <ScalarProperty Name="LogID" ColumnName="LogID" />
+          <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+          <ScalarProperty Name="Credit" ColumnName="Credit" />
+          <ScalarProperty Name="Tagih" ColumnName="Tagih" />
+          <ScalarProperty Name="SalesID" ColumnName="SalesID" />
+          <ScalarProperty Name="Printed" ColumnName="Printed" />
+          <ScalarProperty Name="TanggalTagih" ColumnName="TanggalTagih" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="logproducts">
+      <EntityTypeMapping TypeName="sinarekModel.logproduct">
+        <MappingFragment StoreEntitySet="logproduct">
+          <ScalarProperty Name="Logid" ColumnName="Logid" />
+          <ScalarProperty Name="NoSJ" ColumnName="NoSJ" />
+          <ScalarProperty Name="ParentLogID" ColumnName="ParentLogID" />
+          <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+          <ScalarProperty Name="TanggalOrder" ColumnName="TanggalOrder" />
+          <ScalarProperty Name="category" ColumnName="category" />
+          <ScalarProperty Name="Kernetid" ColumnName="Kernetid" />
+          <ScalarProperty Name="KotaID" ColumnName="KotaID" />
+          <ScalarProperty Name="SalesID" ColumnName="SalesID" />
+          <ScalarProperty Name="SopirID" ColumnName="SopirID" />
+          <ScalarProperty Name="Mobil" ColumnName="Mobil" />
+          <ScalarProperty Name="MobilID" ColumnName="MobilID" />
+          <ScalarProperty Name="Sopir" ColumnName="Sopir" />
+          <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+          <ScalarProperty Name="CustID" ColumnName="CustID" />
+          <ScalarProperty Name="TransTypeID" ColumnName="TransTypeID" />
+          <ScalarProperty Name="CustTypeID" ColumnName="CustTypeID" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="Paid" ColumnName="Paid" />
+          <ScalarProperty Name="Printed" ColumnName="Printed" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="Order" ColumnName="Order" />
+          <ScalarProperty Name="c" ColumnName="c" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="members">
+      <EntityTypeMapping TypeName="sinarekModel.member">
+        <MappingFragment StoreEntitySet="member">
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="TipeMemberID" ColumnName="TipeMemberID" />
+          <ScalarProperty Name="shiftid" ColumnName="shiftid" />
+          <ScalarProperty Name="MasukKerja" ColumnName="MasukKerja" />
+          <ScalarProperty Name="KeluarKerja" ColumnName="KeluarKerja" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="KTP" ColumnName="KTP" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="Sopir" ColumnName="Sopir" />
+          <ScalarProperty Name="Kernet" ColumnName="Kernet" />
+          <ScalarProperty Name="Sales" ColumnName="Sales" />
+          <ScalarProperty Name="Manager" ColumnName="Manager" />
+          <ScalarProperty Name="fingerid" ColumnName="fingerid" />
+          <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="Createdby" ColumnName="Createdby" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mobils">
+      <EntityTypeMapping TypeName="sinarekModel.mobil">
+        <MappingFragment StoreEntitySet="mobil">
+          <ScalarProperty Name="MobilID" ColumnName="MobilID" />
+          <ScalarProperty Name="NoPolis" ColumnName="NoPolis" />
+          <ScalarProperty Name="Tipe" ColumnName="Tipe" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nbs">
+      <EntityTypeMapping TypeName="sinarekModel.nb">
+        <MappingFragment StoreEntitySet="nb">
+          <ScalarProperty Name="nbid" ColumnName="nbid" />
+          <ScalarProperty Name="logid" ColumnName="logid" />
+          <ScalarProperty Name="sisaid" ColumnName="sisaid" />
+          <ScalarProperty Name="keterangan" ColumnName="keterangan" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nbdetails">
+      <EntityTypeMapping TypeName="sinarekModel.nbdetail">
+        <MappingFragment StoreEntitySet="nbdetail">
+          <ScalarProperty Name="nbdetailid" ColumnName="nbdetailid" />
+          <ScalarProperty Name="logid" ColumnName="logid" />
+          <ScalarProperty Name="baseid" ColumnName="baseid" />
+          <ScalarProperty Name="quantitysisa" ColumnName="quantitysisa" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="nopeti" ColumnName="nopeti" />
+          <ScalarProperty Name="keterangan" ColumnName="keterangan" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pels">
+      <EntityTypeMapping TypeName="sinarekModel.pel">
+        <MappingFragment StoreEntitySet="pel">
+          <ScalarProperty Name="custid" ColumnName="custid" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="kotaid" ColumnName="kotaid" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="SalesID" ColumnName="SalesID" />
+          <ScalarProperty Name="Direct" ColumnName="Direct" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+          <ScalarProperty Name="active" ColumnName="active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pelunasans">
+      <EntityTypeMapping TypeName="sinarekModel.pelunasan">
+        <MappingFragment StoreEntitySet="pelunasan">
+          <ScalarProperty Name="lunasid" ColumnName="lunasid" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="tipe" ColumnName="tipe" />
+          <ScalarProperty Name="tanggal" ColumnName="tanggal" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="kasid" ColumnName="kasid" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pengisians">
+      <EntityTypeMapping TypeName="sinarekModel.pengisian">
+        <MappingFragment StoreEntitySet="pengisian">
+          <ScalarProperty Name="PengisianID" ColumnName="PengisianID" />
+          <ScalarProperty Name="SopirID" ColumnName="SopirID" />
+          <ScalarProperty Name="MobilID" ColumnName="MobilID" />
+          <ScalarProperty Name="KotaID" ColumnName="KotaID" />
+          <ScalarProperty Name="KM" ColumnName="KM" />
+          <ScalarProperty Name="TempatIsi" ColumnName="TempatIsi" />
+          <ScalarProperty Name="Biaya" ColumnName="Biaya" />
+          <ScalarProperty Name="Ltr" ColumnName="Ltr" />
+          <ScalarProperty Name="SuratJalan" ColumnName="SuratJalan" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="User" ColumnName="User" />
+          <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pinjamen">
+      <EntityTypeMapping TypeName="sinarekModel.pinjaman">
+        <MappingFragment StoreEntitySet="pinjaman">
+          <ScalarProperty Name="BuruhID" ColumnName="BuruhID" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="tipeid" ColumnName="tipeid" />
+          <ScalarProperty Name="unitvalue" ColumnName="unitvalue" />
+          <ScalarProperty Name="TotalPinjaman" ColumnName="TotalPinjaman" />
+          <ScalarProperty Name="TotalBayar" ColumnName="TotalBayar" />
+          <ScalarProperty Name="JumlahAngsuran" ColumnName="JumlahAngsuran" />
+          <ScalarProperty Name="Bayar" ColumnName="Bayar" />
+          <ScalarProperty Name="keterangan" ColumnName="keterangan" />
+          <ScalarProperty Name="Alasan" ColumnName="Alasan" />
+          <ScalarProperty Name="pinjamanid" ColumnName="pinjamanid" />
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+          <ScalarProperty Name="active" ColumnName="active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="printlogs">
+      <EntityTypeMapping TypeName="sinarekModel.printlog">
+        <MappingFragment StoreEntitySet="printlog">
+          <ScalarProperty Name="logid" ColumnName="logid" />
+          <ScalarProperty Name="tablename" ColumnName="tablename" />
+          <ScalarProperty Name="reportname" ColumnName="reportname" />
+          <ScalarProperty Name="Details" ColumnName="Details" />
+          <ScalarProperty Name="user" ColumnName="user" />
+          <ScalarProperty Name="created" ColumnName="created" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="prodreports">
+      <EntityTypeMapping TypeName="sinarekModel.prodreport">
+        <MappingFragment StoreEntitySet="prodreport">
+          <ScalarProperty Name="ProdReportID" ColumnName="ProdReportID" />
+          <ScalarProperty Name="ProductBaseID" ColumnName="ProductBaseID" />
+          <ScalarProperty Name="CustTypeID" ColumnName="CustTypeID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="products">
+      <EntityTypeMapping TypeName="sinarekModel.product">
+        <MappingFragment StoreEntitySet="product">
+          <ScalarProperty Name="productid" ColumnName="productid" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Short" ColumnName="Short" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="productbases">
+      <EntityTypeMapping TypeName="sinarekModel.productbase">
+        <MappingFragment StoreEntitySet="productbase">
+          <ScalarProperty Name="baseid" ColumnName="baseid" />
+          <ScalarProperty Name="parentid" ColumnName="parentid" />
+          <ScalarProperty Name="tipeid" ColumnName="tipeid" />
+          <ScalarProperty Name="productid" ColumnName="productid" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductShort" ColumnName="ProductShort" />
+          <ScalarProperty Name="custtypeid" ColumnName="custtypeid" />
+          <ScalarProperty Name="unitid" ColumnName="unitid" />
+          <ScalarProperty Name="UnitName" ColumnName="UnitName" />
+          <ScalarProperty Name="UnitShort" ColumnName="UnitShort" />
+          <ScalarProperty Name="ConvRate" ColumnName="ConvRate" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+          <ScalarProperty Name="Sellable" ColumnName="Sellable" />
+          <ScalarProperty Name="Goods" ColumnName="Goods" />
+          <ScalarProperty Name="Others" ColumnName="Others" />
+          <ScalarProperty Name="Updatable" ColumnName="Updatable" />
+          <ScalarProperty Name="Borongan" ColumnName="Borongan" />
+          <ScalarProperty Name="HargaB" ColumnName="HargaB" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="ByProduct" ColumnName="ByProduct" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="TargetQuantifier" ColumnName="TargetQuantifier" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="productprices">
+      <EntityTypeMapping TypeName="sinarekModel.productprice">
+        <MappingFragment StoreEntitySet="productprice">
+          <ScalarProperty Name="ProdPriceID" ColumnName="ProdPriceID" />
+          <ScalarProperty Name="BaseID" ColumnName="BaseID" />
+          <ScalarProperty Name="KotaID" ColumnName="KotaID" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="producttotals">
+      <EntityTypeMapping TypeName="sinarekModel.producttotal">
+        <MappingFragment StoreEntitySet="producttotal">
+          <ScalarProperty Name="totalid" ColumnName="totalid" />
+          <ScalarProperty Name="tanggal" ColumnName="tanggal" />
+          <ScalarProperty Name="Hari" ColumnName="Hari" />
+          <ScalarProperty Name="TipeTransaksi" ColumnName="TipeTransaksi" />
+          <ScalarProperty Name="Ket" ColumnName="Ket" />
+          <ScalarProperty Name="baseid" ColumnName="baseid" />
+          <ScalarProperty Name="value" ColumnName="value" />
+          <ScalarProperty Name="adjustedval" ColumnName="adjustedval" />
+          <ScalarProperty Name="adjusted" ColumnName="adjusted" />
+          <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="producttotalusers">
+      <EntityTypeMapping TypeName="sinarekModel.producttotaluser">
+        <MappingFragment StoreEntitySet="producttotaluser">
+          <ScalarProperty Name="totalid" ColumnName="totalid" />
+          <ScalarProperty Name="tanggal" ColumnName="tanggal" />
+          <ScalarProperty Name="keterangan" ColumnName="keterangan" />
+          <ScalarProperty Name="baseid" ColumnName="baseid" />
+          <ScalarProperty Name="sisa" ColumnName="sisa" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="producttrans">
+      <EntityTypeMapping TypeName="sinarekModel.producttran">
+        <MappingFragment StoreEntitySet="producttrans">
+          <ScalarProperty Name="bktid" ColumnName="bktid" />
+          <ScalarProperty Name="tanggal" ColumnName="tanggal" />
+          <ScalarProperty Name="baseid" ColumnName="baseid" />
+          <ScalarProperty Name="supid" ColumnName="supid" />
+          <ScalarProperty Name="custid" ColumnName="custid" />
+          <ScalarProperty Name="tipe" ColumnName="tipe" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="nonota" ColumnName="nonota" />
+          <ScalarProperty Name="keterangan" ColumnName="keterangan" />
+          <ScalarProperty Name="logdetailid" ColumnName="logdetailid" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="category" ColumnName="category" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="producttranstotals">
+      <EntityTypeMapping TypeName="sinarekModel.producttranstotal">
+        <MappingFragment StoreEntitySet="producttranstotal">
+          <ScalarProperty Name="bktid" ColumnName="bktid" />
+          <ScalarProperty Name="tanggal" ColumnName="tanggal" />
+          <ScalarProperty Name="baseid" ColumnName="baseid" />
+          <ScalarProperty Name="supid" ColumnName="supid" />
+          <ScalarProperty Name="Awal" ColumnName="Awal" />
+          <ScalarProperty Name="Akhir" ColumnName="Akhir" />
+          <ScalarProperty Name="keterangan" ColumnName="keterangan" />
+          <ScalarProperty Name="enddate" ColumnName="enddate" />
+          <ScalarProperty Name="completed" ColumnName="completed" />
+          <ScalarProperty Name="storeid" ColumnName="storeid" />
+          <ScalarProperty Name="tierid" ColumnName="tierid" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="rinciangajis">
+      <EntityTypeMapping TypeName="sinarekModel.rinciangaji">
+        <MappingFragment StoreEntitySet="rinciangaji">
+          <ScalarProperty Name="rinciangajiid" ColumnName="rinciangajiid" />
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="GID" ColumnName="GID" />
+          <ScalarProperty Name="tipepembayaranid" ColumnName="tipepembayaranid" />
+          <ScalarProperty Name="tanggal" ColumnName="tanggal" />
+          <ScalarProperty Name="tipeid" ColumnName="tipeid" />
+          <ScalarProperty Name="unit" ColumnName="unit" />
+          <ScalarProperty Name="unitvalue" ColumnName="unitvalue" />
+          <ScalarProperty Name="keterangan" ColumnName="keterangan" />
+          <ScalarProperty Name="templateid" ColumnName="templateid" />
+          <ScalarProperty Name="CalculateID" ColumnName="CalculateID" />
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="rinciangajikoreksis">
+      <EntityTypeMapping TypeName="sinarekModel.rinciangajikoreksi">
+        <MappingFragment StoreEntitySet="rinciangajikoreksi">
+          <ScalarProperty Name="rinciangajiid" ColumnName="rinciangajiid" />
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="GID" ColumnName="GID" />
+          <ScalarProperty Name="tipepembayaranid" ColumnName="tipepembayaranid" />
+          <ScalarProperty Name="tanggal" ColumnName="tanggal" />
+          <ScalarProperty Name="tipeid" ColumnName="tipeid" />
+          <ScalarProperty Name="unit" ColumnName="unit" />
+          <ScalarProperty Name="unitvalue" ColumnName="unitvalue" />
+          <ScalarProperty Name="keterangan" ColumnName="keterangan" />
+          <ScalarProperty Name="templateid" ColumnName="templateid" />
+          <ScalarProperty Name="CalculateID" ColumnName="CalculateID" />
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="rinciangajitemps">
+      <EntityTypeMapping TypeName="sinarekModel.rinciangajitemp">
+        <MappingFragment StoreEntitySet="rinciangajitemp">
+          <ScalarProperty Name="TempID" ColumnName="TempID" />
+          <ScalarProperty Name="BuruhID" ColumnName="BuruhID" />
+          <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="User" ColumnName="User" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Paid" ColumnName="Paid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="saldocutis">
+      <EntityTypeMapping TypeName="sinarekModel.saldocuti">
+        <MappingFragment StoreEntitySet="saldocuti">
+          <ScalarProperty Name="SaldoID" ColumnName="SaldoID" />
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="Saldo" ColumnName="Saldo" />
+          <ScalarProperty Name="Tahun" ColumnName="Tahun" />
+          <ScalarProperty Name="Terpakai" ColumnName="Terpakai" />
+          <ScalarProperty Name="CutiBersama" ColumnName="CutiBersama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sales">
+      <EntityTypeMapping TypeName="sinarekModel.sale">
+        <MappingFragment StoreEntitySet="sales">
+          <ScalarProperty Name="SalesID" ColumnName="SalesID" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+          <ScalarProperty Name="Short" ColumnName="Short" />
+          <ScalarProperty Name="Target" ColumnName="Target" />
+          <ScalarProperty Name="From" ColumnName="From" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="salescomissions">
+      <EntityTypeMapping TypeName="sinarekModel.salescomission">
+        <MappingFragment StoreEntitySet="salescomission">
+          <ScalarProperty Name="SalesComID" ColumnName="SalesComID" />
+          <ScalarProperty Name="SalesID" ColumnName="SalesID" />
+          <ScalarProperty Name="GBID" ColumnName="GBID" />
+          <ScalarProperty Name="TargetBulanan" ColumnName="TargetBulanan" />
+          <ScalarProperty Name="TargetHarian" ColumnName="TargetHarian" />
+          <ScalarProperty Name="TargetCapai" ColumnName="TargetCapai" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="OriginalValue" ColumnName="OriginalValue" />
+          <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+          <ScalarProperty Name="Printed" ColumnName="Printed" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="satpams">
+      <EntityTypeMapping TypeName="sinarekModel.satpam">
+        <MappingFragment StoreEntitySet="satpam">
+          <ScalarProperty Name="SatpamID" ColumnName="SatpamID" />
+          <ScalarProperty Name="MasukKerja" ColumnName="MasukKerja" />
+          <ScalarProperty Name="CurrentWage" ColumnName="CurrentWage" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="User" ColumnName="User" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="FingerID" ColumnName="FingerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="shifts">
+      <EntityTypeMapping TypeName="sinarekModel.shift">
+        <MappingFragment StoreEntitySet="shift">
+          <ScalarProperty Name="shiftid" ColumnName="shiftid" />
+          <ScalarProperty Name="timestart" ColumnName="timestart" />
+          <ScalarProperty Name="timeend" ColumnName="timeend" />
+          <ScalarProperty Name="user" ColumnName="user" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="shiftdays">
+      <EntityTypeMapping TypeName="sinarekModel.shiftday">
+        <MappingFragment StoreEntitySet="shiftday">
+          <ScalarProperty Name="shiftdayid" ColumnName="shiftdayid" />
+          <ScalarProperty Name="dayname" ColumnName="dayname" />
+          <ScalarProperty Name="timestart" ColumnName="timestart" />
+          <ScalarProperty Name="timeend" ColumnName="timeend" />
+          <ScalarProperty Name="shiftid" ColumnName="shiftid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sjstats">
+      <EntityTypeMapping TypeName="sinarekModel.sjstat">
+        <MappingFragment StoreEntitySet="sjstat">
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sopirs">
+      <EntityTypeMapping TypeName="sinarekModel.sopir">
+        <MappingFragment StoreEntitySet="sopir">
+          <ScalarProperty Name="SopirID" ColumnName="SopirID" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Short" ColumnName="Short" />
+          <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+          <ScalarProperty Name="From" ColumnName="From" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="staffs">
+      <EntityTypeMapping TypeName="sinarekModel.staff">
+        <MappingFragment StoreEntitySet="staff">
+          <ScalarProperty Name="StaffID" ColumnName="StaffID" />
+          <ScalarProperty Name="MasukKerja" ColumnName="MasukKerja" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="User" ColumnName="User" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="Manager" ColumnName="Manager" />
+          <ScalarProperty Name="General" ColumnName="General" />
+          <ScalarProperty Name="Sales" ColumnName="Sales" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="FingerID" ColumnName="FingerID" />
+          <ScalarProperty Name="passthrough" ColumnName="passthrough" />
+          <ScalarProperty Name="logname" ColumnName="logname" />
+          <ScalarProperty Name="loguseronly" ColumnName="loguseronly" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="statbars">
+      <EntityTypeMapping TypeName="sinarekModel.statbar">
+        <MappingFragment StoreEntitySet="statbar">
+          <ScalarProperty Name="statusbarangid" ColumnName="statusbarangid" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="statbots">
+      <EntityTypeMapping TypeName="sinarekModel.statbot">
+        <MappingFragment StoreEntitySet="statbot">
+          <ScalarProperty Name="statusid" ColumnName="statusid" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="stores">
+      <EntityTypeMapping TypeName="sinarekModel.store">
+        <MappingFragment StoreEntitySet="store">
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="BaseID" ColumnName="BaseID" />
+          <ScalarProperty Name="TierID" ColumnName="TierID" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StartUseDate" ColumnName="StartUseDate" />
+          <ScalarProperty Name="EndUseDate" ColumnName="EndUseDate" />
+          <ScalarProperty Name="PanjarPercent" ColumnName="PanjarPercent" />
+          <ScalarProperty Name="PanjarCuci" ColumnName="PanjarCuci" />
+          <ScalarProperty Name="OngkosCuci" ColumnName="OngkosCuci" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="PrintedM" ColumnName="PrintedM" />
+          <ScalarProperty Name="PrintedP" ColumnName="PrintedP" />
+          <ScalarProperty Name="PrintedL" ColumnName="PrintedL" />
+          <ScalarProperty Name="TotalLunas" ColumnName="TotalLunas" />
+          <ScalarProperty Name="TanggalLunas" ColumnName="TanggalLunas" />
+          <ScalarProperty Name="TotalNilai" ColumnName="TotalNilai" />
+          <ScalarProperty Name="SupID" ColumnName="SupID" />
+          <ScalarProperty Name="KasID" ColumnName="KasID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="storebots">
+      <EntityTypeMapping TypeName="sinarekModel.storebot">
+        <MappingFragment StoreEntitySet="storebot">
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="TierID" ColumnName="TierID" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StartUseDate" ColumnName="StartUseDate" />
+          <ScalarProperty Name="EndUseDate" ColumnName="EndUseDate" />
+          <ScalarProperty Name="PanjarPercent" ColumnName="PanjarPercent" />
+          <ScalarProperty Name="PanjarCuci" ColumnName="PanjarCuci" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="SupID" ColumnName="SupID" />
+          <ScalarProperty Name="KasID" ColumnName="KasID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="storebotdetails">
+      <EntityTypeMapping TypeName="sinarekModel.storebotdetail">
+        <MappingFragment StoreEntitySet="storebotdetail">
+          <ScalarProperty Name="DetailID" ColumnName="DetailID" />
+          <ScalarProperty Name="StoreBotID" ColumnName="StoreBotID" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="LogDetailID" ColumnName="LogDetailID" />
+          <ScalarProperty Name="KasID" ColumnName="KasID" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+          <ScalarProperty Name="PaidDate" ColumnName="PaidDate" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="storeins">
+      <EntityTypeMapping TypeName="sinarekModel.storein">
+        <MappingFragment StoreEntitySet="storein">
+          <ScalarProperty Name="StoreInID" ColumnName="StoreInID" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="BaseID" ColumnName="BaseID" />
+          <ScalarProperty Name="tierid" ColumnName="tierid" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+          <ScalarProperty Name="NoSJ" ColumnName="NoSJ" />
+          <ScalarProperty Name="LogID" ColumnName="LogID" />
+          <ScalarProperty Name="LogDetailID" ColumnName="LogDetailID" />
+          <ScalarProperty Name="OngkosCuci" ColumnName="OngkosCuci" />
+          <ScalarProperty Name="KasID" ColumnName="KasID" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="PaidDate" ColumnName="PaidDate" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="SupID" ColumnName="SupID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="storeouts">
+      <EntityTypeMapping TypeName="sinarekModel.storeout">
+        <MappingFragment StoreEntitySet="storeout">
+          <ScalarProperty Name="StoreOutID" ColumnName="StoreOutID" />
+          <ScalarProperty Name="storeid" ColumnName="storeid" />
+          <ScalarProperty Name="tierid" ColumnName="tierid" />
+          <ScalarProperty Name="supid" ColumnName="supid" />
+          <ScalarProperty Name="baseid" ColumnName="baseid" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="nosj" ColumnName="nosj" />
+          <ScalarProperty Name="LogDetailID" ColumnName="LogDetailID" />
+          <ScalarProperty Name="LogID" ColumnName="LogID" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="storeuses">
+      <EntityTypeMapping TypeName="sinarekModel.storeuse">
+        <MappingFragment StoreEntitySet="storeuse">
+          <ScalarProperty Name="StoreUseID" ColumnName="StoreUseID" />
+          <ScalarProperty Name="storeid" ColumnName="storeid" />
+          <ScalarProperty Name="tierid" ColumnName="tierid" />
+          <ScalarProperty Name="supid" ColumnName="supid" />
+          <ScalarProperty Name="baseid" ColumnName="baseid" />
+          <ScalarProperty Name="awal" ColumnName="awal" />
+          <ScalarProperty Name="masuk" ColumnName="masuk" />
+          <ScalarProperty Name="tambahan" ColumnName="tambahan" />
+          <ScalarProperty Name="pecah" ColumnName="pecah" />
+          <ScalarProperty Name="sumbing" ColumnName="sumbing" />
+          <ScalarProperty Name="kotor" ColumnName="kotor" />
+          <ScalarProperty Name="pindah" ColumnName="pindah" />
+          <ScalarProperty Name="selisih" ColumnName="selisih" />
+          <ScalarProperty Name="sisa" ColumnName="sisa" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+          <ScalarProperty Name="tanggal" ColumnName="tanggal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sups">
+      <EntityTypeMapping TypeName="sinarekModel.sup">
+        <MappingFragment StoreEntitySet="sup">
+          <ScalarProperty Name="SupID" ColumnName="SupID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Kota" ColumnName="Kota" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="Expedisi" ColumnName="Expedisi" />
+          <ScalarProperty Name="Botol" ColumnName="Botol" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="syslogs">
+      <EntityTypeMapping TypeName="sinarekModel.syslog">
+        <MappingFragment StoreEntitySet="syslog">
+          <ScalarProperty Name="logid" ColumnName="logid" />
+          <ScalarProperty Name="formname" ColumnName="formname" />
+          <ScalarProperty Name="formtext" ColumnName="formtext" />
+          <ScalarProperty Name="message" ColumnName="message" />
+          <ScalarProperty Name="user" ColumnName="user" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tiers">
+      <EntityTypeMapping TypeName="sinarekModel.tier">
+        <MappingFragment StoreEntitySet="tier">
+          <ScalarProperty Name="TierID" ColumnName="TierID" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+          <ScalarProperty Name="Capacity" ColumnName="Capacity" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tipeaccounts">
+      <EntityTypeMapping TypeName="sinarekModel.tipeaccount">
+        <MappingFragment StoreEntitySet="tipeaccount">
+          <ScalarProperty Name="accountid" ColumnName="accountid" />
+          <ScalarProperty Name="accNum" ColumnName="accNum" />
+          <ScalarProperty Name="accTipe" ColumnName="accTipe" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+          <ScalarProperty Name="SystemOnly" ColumnName="SystemOnly" />
+          <ScalarProperty Name="Payment" ColumnName="Payment" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tipedendas">
+      <EntityTypeMapping TypeName="sinarekModel.tipedenda">
+        <MappingFragment StoreEntitySet="tipedenda">
+          <ScalarProperty Name="tipedendaid" ColumnName="tipedendaid" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tipehadirs">
+      <EntityTypeMapping TypeName="sinarekModel.tipehadir">
+        <MappingFragment StoreEntitySet="tipehadir">
+          <ScalarProperty Name="tipehadirid" ColumnName="tipehadirid" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+          <ScalarProperty Name="SystemOnly" ColumnName="SystemOnly" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tipemembers">
+      <EntityTypeMapping TypeName="sinarekModel.tipemember">
+        <MappingFragment StoreEntitySet="tipemember">
+          <ScalarProperty Name="tipememberid" ColumnName="tipememberid" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tipepembayarans">
+      <EntityTypeMapping TypeName="sinarekModel.tipepembayaran">
+        <MappingFragment StoreEntitySet="tipepembayaran">
+          <ScalarProperty Name="TipePembayaranID" ColumnName="TipePembayaranID" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tipeprods">
+      <EntityTypeMapping TypeName="sinarekModel.tipeprod">
+        <MappingFragment StoreEntitySet="tipeprod">
+          <ScalarProperty Name="tipeid" ColumnName="tipeid" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="systemonly" ColumnName="systemonly" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tiperinciangajis">
+      <EntityTypeMapping TypeName="sinarekModel.tiperinciangaji">
+        <MappingFragment StoreEntitySet="tiperinciangaji">
+          <ScalarProperty Name="TipeID" ColumnName="TipeID" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="JumlahAbsen" ColumnName="JumlahAbsen" />
+          <ScalarProperty Name="UpdateAbsen" ColumnName="UpdateAbsen" />
+          <ScalarProperty Name="DefaultValue" ColumnName="DefaultValue" />
+          <ScalarProperty Name="groupgajiid" ColumnName="groupgajiid" />
+          <ScalarProperty Name="systemonly" ColumnName="systemonly" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tlocationprices">
+      <EntityTypeMapping TypeName="sinarekModel.tlocationprice">
+        <MappingFragment StoreEntitySet="tlocationprice">
+          <ScalarProperty Name="LocationPriceID" ColumnName="LocationPriceID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="KotaID" ColumnName="KotaID" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="User" ColumnName="User" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="transports">
+      <EntityTypeMapping TypeName="sinarekModel.transport">
+        <MappingFragment StoreEntitySet="transport">
+          <ScalarProperty Name="transportid" ColumnName="transportid" />
+          <ScalarProperty Name="nama" ColumnName="nama" />
+          <ScalarProperty Name="contact" ColumnName="contact" />
+          <ScalarProperty Name="contactperson" ColumnName="contactperson" />
+          <ScalarProperty Name="user" ColumnName="user" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tunits">
+      <EntityTypeMapping TypeName="sinarekModel.tunit">
+        <MappingFragment StoreEntitySet="tunit">
+          <ScalarProperty Name="unitid" ColumnName="unitid" />
+          <ScalarProperty Name="Short" ColumnName="Short" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="parentid" ColumnName="parentid" />
+          <ScalarProperty Name="convrate" ColumnName="convrate" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="uangjalans">
+      <EntityTypeMapping TypeName="sinarekModel.uangjalan">
+        <MappingFragment StoreEntitySet="uangjalan">
+          <ScalarProperty Name="ujid" ColumnName="ujid" />
+          <ScalarProperty Name="logid" ColumnName="logid" />
+          <ScalarProperty Name="NOSJ" ColumnName="NOSJ" />
+          <ScalarProperty Name="Tujuan" ColumnName="Tujuan" />
+          <ScalarProperty Name="SopirName" ColumnName="SopirName" />
+          <ScalarProperty Name="MobilName" ColumnName="MobilName" />
+          <ScalarProperty Name="KernetName" ColumnName="KernetName" />
+          <ScalarProperty Name="kasid" ColumnName="kasid" />
+          <ScalarProperty Name="value" ColumnName="value" />
+          <ScalarProperty Name="printed" ColumnName="printed" />
+          <ScalarProperty Name="statusid" ColumnName="statusid" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usebotdetails">
+      <EntityTypeMapping TypeName="sinarekModel.usebotdetail">
+        <MappingFragment StoreEntitySet="usebotdetail">
+          <ScalarProperty Name="useid" ColumnName="useid" />
+          <ScalarProperty Name="storeid" ColumnName="storeid" />
+          <ScalarProperty Name="logid" ColumnName="logid" />
+          <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+          <ScalarProperty Name="Pecah" ColumnName="Pecah" />
+          <ScalarProperty Name="Kotor" ColumnName="Kotor" />
+          <ScalarProperty Name="Selisih" ColumnName="Selisih" />
+          <ScalarProperty Name="Sisa" ColumnName="Sisa" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="ModfiedBy" ColumnName="ModfiedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vabsenmingguansummaries">
+      <EntityTypeMapping TypeName="sinarekModel.vabsenmingguansummary">
+        <MappingFragment StoreEntitySet="vabsenmingguansummary">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="memberid" ColumnName="memberid" />
+          <ScalarProperty Name="gbid" ColumnName="gbid" />
+          <ScalarProperty Name="gmid" ColumnName="gmid" />
+          <ScalarProperty Name="KetLainLain" ColumnName="KetLainLain" />
+          <ScalarProperty Name="KetAll" ColumnName="KetAll" />
+          <ScalarProperty Name="startdate" ColumnName="startdate" />
+          <ScalarProperty Name="enddate" ColumnName="enddate" />
+          <ScalarProperty Name="Hadir" ColumnName="Hadir" />
+          <ScalarProperty Name="kEHADIRAN" ColumnName="kEHADIRAN" />
+          <ScalarProperty Name="HariRaya" ColumnName="HariRaya" />
+          <ScalarProperty Name="Ijin" ColumnName="Ijin" />
+          <ScalarProperty Name="Alpa" ColumnName="Alpa" />
+          <ScalarProperty Name="Cuti" ColumnName="Cuti" />
+          <ScalarProperty Name="Sakit" ColumnName="Sakit" />
+          <ScalarProperty Name="CutiTahunan" ColumnName="CutiTahunan" />
+          <ScalarProperty Name="KetCutiTahunan" ColumnName="KetCutiTahunan" />
+          <ScalarProperty Name="KetCuti" ColumnName="KetCuti" />
+          <ScalarProperty Name="KetSakit" ColumnName="KetSakit" />
+          <ScalarProperty Name="KetIjin" ColumnName="KetIjin" />
+          <ScalarProperty Name="KetAlpa" ColumnName="KetAlpa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vallsups">
+      <EntityTypeMapping TypeName="sinarekModel.vallsup">
+        <MappingFragment StoreEntitySet="vallsup">
+          <ScalarProperty Name="SUpID" ColumnName="SUpID" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TableName" ColumnName="TableName" />
+          <ScalarProperty Name="CustTypeID" ColumnName="CustTypeID" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="botol" ColumnName="botol" />
+          <ScalarProperty Name="expedisi" ColumnName="expedisi" />
+          <ScalarProperty Name="SALES" ColumnName="SALES" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vborongans">
+      <EntityTypeMapping TypeName="sinarekModel.vborongan">
+        <MappingFragment StoreEntitySet="vborongan">
+          <ScalarProperty Name="Boronganid" ColumnName="Boronganid" />
+          <ScalarProperty Name="tipeborongan" ColumnName="tipeborongan" />
+          <ScalarProperty Name="HargaB" ColumnName="HargaB" />
+          <ScalarProperty Name="hasilborongan" ColumnName="hasilborongan" />
+          <ScalarProperty Name="NilaiHasil" ColumnName="NilaiHasil" />
+          <ScalarProperty Name="jumlahorang" ColumnName="jumlahorang" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+          <ScalarProperty Name="tanggal" ColumnName="tanggal" />
+          <ScalarProperty Name="MulaiBorongan" ColumnName="MulaiBorongan" />
+          <ScalarProperty Name="SelesaiBorongan" ColumnName="SelesaiBorongan" />
+          <ScalarProperty Name="pecah" ColumnName="pecah" />
+          <ScalarProperty Name="Nopeti" ColumnName="Nopeti" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vboronganalls">
+      <EntityTypeMapping TypeName="sinarekModel.vboronganall">
+        <MappingFragment StoreEntitySet="vboronganall">
+          <ScalarProperty Name="memberid" ColumnName="memberid" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="HasilBorongan" ColumnName="HasilBorongan" />
+          <ScalarProperty Name="jumlahorang" ColumnName="jumlahorang" />
+          <ScalarProperty Name="tipeborongan" ColumnName="tipeborongan" />
+          <ScalarProperty Name="GajiPerJam" ColumnName="GajiPerJam" />
+          <ScalarProperty Name="timestart" ColumnName="timestart" />
+          <ScalarProperty Name="timeend" ColumnName="timeend" />
+          <ScalarProperty Name="tanggal" ColumnName="tanggal" />
+          <ScalarProperty Name="boronganid" ColumnName="boronganid" />
+          <ScalarProperty Name="NoPeti" ColumnName="NoPeti" />
+          <ScalarProperty Name="GMID" ColumnName="GMID" />
+          <ScalarProperty Name="mulaiborongan" ColumnName="mulaiborongan" />
+          <ScalarProperty Name="selesaiborongan" ColumnName="selesaiborongan" />
+          <ScalarProperty Name="MulaiHitung" ColumnName="MulaiHitung" />
+          <ScalarProperty Name="SelesaiHitung" ColumnName="SelesaiHitung" />
+          <ScalarProperty Name="Jam" ColumnName="Jam" />
+          <ScalarProperty Name="Hari" ColumnName="Hari" />
+          <ScalarProperty Name="dayname" ColumnName="dayname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vborongannews">
+      <EntityTypeMapping TypeName="sinarekModel.vborongannew">
+        <MappingFragment StoreEntitySet="vborongannew">
+          <ScalarProperty Name="Boronganid" ColumnName="Boronganid" />
+          <ScalarProperty Name="tipeborongan" ColumnName="tipeborongan" />
+          <ScalarProperty Name="HargaB" ColumnName="HargaB" />
+          <ScalarProperty Name="hasilborongan" ColumnName="hasilborongan" />
+          <ScalarProperty Name="NilaiHasil" ColumnName="NilaiHasil" />
+          <ScalarProperty Name="jumlahorang" ColumnName="jumlahorang" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+          <ScalarProperty Name="tanggal" ColumnName="tanggal" />
+          <ScalarProperty Name="MulaiBorongan" ColumnName="MulaiBorongan" />
+          <ScalarProperty Name="SelesaiBorongan" ColumnName="SelesaiBorongan" />
+          <ScalarProperty Name="pecah" ColumnName="pecah" />
+          <ScalarProperty Name="Nopeti" ColumnName="Nopeti" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vbotolkotors">
+      <EntityTypeMapping TypeName="sinarekModel.vbotolkotor">
+        <MappingFragment StoreEntitySet="vbotolkotor">
+          <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+          <ScalarProperty Name="NOSJ" ColumnName="NOSJ" />
+          <ScalarProperty Name="LogID" ColumnName="LogID" />
+          <ScalarProperty Name="category" ColumnName="category" />
+          <ScalarProperty Name="CustNAME" ColumnName="CustNAME" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="K100" ColumnName="K100" />
+          <ScalarProperty Name="K99" ColumnName="K99" />
+          <ScalarProperty Name="K98" ColumnName="K98" />
+          <ScalarProperty Name="K16" ColumnName="K16" />
+          <ScalarProperty Name="BTL" ColumnName="BTL" />
+          <ScalarProperty Name="Pecah" ColumnName="Pecah" />
+          <ScalarProperty Name="Sumbing" ColumnName="Sumbing" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vpengisians">
+      <EntityTypeMapping TypeName="sinarekModel.vpengisian">
+        <MappingFragment StoreEntitySet="vpengisian">
+          <ScalarProperty Name="Kota_" ColumnName="Kota_" />
+          <ScalarProperty Name="Sopir_" ColumnName="Sopir_" />
+          <ScalarProperty Name="Nopolis" ColumnName="Nopolis" />
+          <ScalarProperty Name="Tipe" ColumnName="Tipe" />
+          <ScalarProperty Name="KM" ColumnName="KM" />
+          <ScalarProperty Name="TempatIsi" ColumnName="TempatIsi" />
+          <ScalarProperty Name="Biaya" ColumnName="Biaya" />
+          <ScalarProperty Name="Ltr" ColumnName="Ltr" />
+          <ScalarProperty Name="SuratJalan" ColumnName="SuratJalan" />
+          <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+          <ScalarProperty Name="Tanggal_" ColumnName="Tanggal_" />
+          <ScalarProperty Name="Jam_" ColumnName="Jam_" />
+          <ScalarProperty Name="Periode" ColumnName="Periode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vproductbases">
+      <EntityTypeMapping TypeName="sinarekModel.vproductbase">
+        <MappingFragment StoreEntitySet="vproductbase">
+          <ScalarProperty Name="baseid" ColumnName="baseid" />
+          <ScalarProperty Name="parentid" ColumnName="parentid" />
+          <ScalarProperty Name="tipeid" ColumnName="tipeid" />
+          <ScalarProperty Name="tipenama" ColumnName="tipenama" />
+          <ScalarProperty Name="systemonly" ColumnName="systemonly" />
+          <ScalarProperty Name="productid" ColumnName="productid" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ProdShort" ColumnName="ProdShort" />
+          <ScalarProperty Name="custtypeid" ColumnName="custtypeid" />
+          <ScalarProperty Name="unitid" ColumnName="unitid" />
+          <ScalarProperty Name="UnitName" ColumnName="UnitName" />
+          <ScalarProperty Name="Short" ColumnName="Short" />
+          <ScalarProperty Name="ConvRate" ColumnName="ConvRate" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+          <ScalarProperty Name="Sellable" ColumnName="Sellable" />
+          <ScalarProperty Name="Goods" ColumnName="Goods" />
+          <ScalarProperty Name="Others" ColumnName="Others" />
+          <ScalarProperty Name="Updatable" ColumnName="Updatable" />
+          <ScalarProperty Name="Borongan" ColumnName="Borongan" />
+          <ScalarProperty Name="HargaB" ColumnName="HargaB" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="ByProduct" ColumnName="ByProduct" />
+          <ScalarProperty Name="ProdName" ColumnName="ProdName" />
+          <ScalarProperty Name="ProductLong" ColumnName="ProductLong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vproductprices">
+      <EntityTypeMapping TypeName="sinarekModel.vproductprice">
+        <MappingFragment StoreEntitySet="vproductprice">
+          <ScalarProperty Name="baseid" ColumnName="baseid" />
+          <ScalarProperty Name="productname" ColumnName="productname" />
+          <ScalarProperty Name="productshort" ColumnName="productshort" />
+          <ScalarProperty Name="unitname" ColumnName="unitname" />
+          <ScalarProperty Name="unitshort" ColumnName="unitshort" />
+          <ScalarProperty Name="nama" ColumnName="nama" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="kotaid" ColumnName="kotaid" />
+          <ScalarProperty Name="zone" ColumnName="zone" />
+          <ScalarProperty Name="tambahan" ColumnName="tambahan" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="Paket" ColumnName="Paket" />
+          <ScalarProperty Name="unitid" ColumnName="unitid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vrinciangajis">
+      <EntityTypeMapping TypeName="sinarekModel.vrinciangaji">
+        <MappingFragment StoreEntitySet="vrinciangaji">
+          <ScalarProperty Name="rinciangajiid" ColumnName="rinciangajiid" />
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="GID" ColumnName="GID" />
+          <ScalarProperty Name="tipepembayaranid" ColumnName="tipepembayaranid" />
+          <ScalarProperty Name="tanggal" ColumnName="tanggal" />
+          <ScalarProperty Name="tipeid" ColumnName="tipeid" />
+          <ScalarProperty Name="unit" ColumnName="unit" />
+          <ScalarProperty Name="unitvalue" ColumnName="unitvalue" />
+          <ScalarProperty Name="keterangan" ColumnName="keterangan" />
+          <ScalarProperty Name="templateid" ColumnName="templateid" />
+          <ScalarProperty Name="CalculateID" ColumnName="CalculateID" />
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="modified" ColumnName="modified" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vrinciangajiabsens">
+      <EntityTypeMapping TypeName="sinarekModel.vrinciangajiabsen">
+        <MappingFragment StoreEntitySet="vrinciangajiabsen">
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="sopir" ColumnName="sopir" />
+          <ScalarProperty Name="kernet" ColumnName="kernet" />
+          <ScalarProperty Name="memberid" ColumnName="memberid" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="rinciangajiid" ColumnName="rinciangajiid" />
+          <ScalarProperty Name="tipeid" ColumnName="tipeid" />
+          <ScalarProperty Name="UnitValue" ColumnName="UnitValue" />
+          <ScalarProperty Name="GID" ColumnName="GID" />
+          <ScalarProperty Name="tipepembayaranid" ColumnName="tipepembayaranid" />
+          <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+          <ScalarProperty Name="nama" ColumnName="nama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vsaldocutis">
+      <EntityTypeMapping TypeName="sinarekModel.vsaldocuti">
+        <MappingFragment StoreEntitySet="vsaldocuti">
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Tahun" ColumnName="Tahun" />
+          <ScalarProperty Name="Saldo" ColumnName="Saldo" />
+          <ScalarProperty Name="Terpakai" ColumnName="Terpakai" />
+          <ScalarProperty Name="CutiBersama" ColumnName="CutiBersama" />
+          <ScalarProperty Name="MasukKerja" ColumnName="MasukKerja" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vujs">
+      <EntityTypeMapping TypeName="sinarekModel.vuj">
+        <MappingFragment StoreEntitySet="vuj">
+          <ScalarProperty Name="tanggal" ColumnName="tanggal" />
+          <ScalarProperty Name="NoSJ" ColumnName="NoSJ" />
+          <ScalarProperty Name="LogID" ColumnName="LogID" />
+          <ScalarProperty Name="KotaID" ColumnName="KotaID" />
+          <ScalarProperty Name="Tujuan" ColumnName="Tujuan" />
+          <ScalarProperty Name="Sopirid" ColumnName="Sopirid" />
+          <ScalarProperty Name="SopirName" ColumnName="SopirName" />
+          <ScalarProperty Name="MobilID" ColumnName="MobilID" />
+          <ScalarProperty Name="MobilName" ColumnName="MobilName" />
+          <ScalarProperty Name="SalesID" ColumnName="SalesID" />
+          <ScalarProperty Name="SalesName" ColumnName="SalesName" />
+          <ScalarProperty Name="KernetName" ColumnName="KernetName" />
+          <ScalarProperty Name="printed" ColumnName="printed" />
+          <ScalarProperty Name="UangJalan" ColumnName="UangJalan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

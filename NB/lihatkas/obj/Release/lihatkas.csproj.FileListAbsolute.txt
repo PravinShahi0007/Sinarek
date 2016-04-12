@@ -1,0 +1,8 @@
+C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatkas\bin\Release\lihatkas.dll
+C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatkas\bin\Release\lihatkas.pdb
+C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatkas\obj\Release\lihatkas.dll
+C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatkas\obj\Release\lihatkas.pdb
+C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatkas\obj\Release\lihatkas.csprojResolveAssemblyReference.cache
+C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatkas\obj\Release\lihatkas.rptKasKeluar.resources
+C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatkas\obj\Release\lihatkas.csproj.GenerateResource.Cache
+C:\Users\Vina\Documents\Projects\New Start 2016\NB\lihatkas\obj\Release\lihatkas.dll.licenses

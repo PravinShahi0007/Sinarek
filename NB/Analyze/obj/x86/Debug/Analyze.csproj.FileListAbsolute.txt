@@ -1,0 +1,13 @@
+C:\Users\Vina\Documents\Projects\New Start 2015\NB\Analyze\bin\Debug\Analyze.exe.config
+C:\Users\Vina\Documents\Projects\New Start 2015\NB\Analyze\bin\Debug\Analyze.exe
+C:\Users\Vina\Documents\Projects\New Start 2015\NB\Analyze\bin\Debug\Analyze.pdb
+C:\Users\Vina\Documents\Projects\New Start 2015\NB\Analyze\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Vina\Documents\Projects\New Start 2015\NB\Analyze\obj\x86\Debug\Analyze.Properties.Resources.resources
+C:\Users\Vina\Documents\Projects\New Start 2015\NB\Analyze\obj\x86\Debug\Analyze.Reports.Client.resources
+C:\Users\Vina\Documents\Projects\New Start 2015\NB\Analyze\obj\x86\Debug\Analyze.Reports.Product.resources
+C:\Users\Vina\Documents\Projects\New Start 2015\NB\Analyze\obj\x86\Debug\Analyze.frmViewReport.resources
+C:\Users\Vina\Documents\Projects\New Start 2015\NB\Analyze\obj\x86\Debug\Analyze.csproj.GenerateResource.Cache
+C:\Users\Vina\Documents\Projects\New Start 2015\NB\Analyze\obj\x86\Debug\Analyze.exe
+C:\Users\Vina\Documents\Projects\New Start 2015\NB\Analyze\obj\x86\Debug\Analyze.pdb
+C:\Users\Vina\Documents\Projects\New Start 2015\NB\Analyze\obj\x86\Debug\Analyze.csprojResolveAssemblyReference.cache
+C:\Users\Vina\Documents\Projects\New Start 2015\NB\Analyze\obj\x86\Debug\Analyze.Reports.rptDailyInventory.resources
